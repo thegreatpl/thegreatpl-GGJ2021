@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class AnimatorScript : MonoBehaviour
@@ -19,7 +20,8 @@ public class AnimatorScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        AnimationLayers = GetComponentsInChildren<AnimationLayer>().ToList();
+        currentAnimation = "idledown";
     }
 
     // Update is called once per frame
