@@ -15,12 +15,13 @@ public class AnimatorScript : MonoBehaviour
 
     public string currentAnimation;
 
-    public string QueuedAnimation; 
+    public string QueuedAnimation = null; 
 
     // Start is called before the first frame update
     void Start()
     {
-        AnimationLayers = GetComponentsInChildren<AnimationLayer>().ToList();
+        QueuedAnimation = null; 
+        //AnimationLayers = GetComponentsInChildren<AnimationLayer>().ToList();
         currentAnimation = "idledown";
     }
 
@@ -36,7 +37,7 @@ public class AnimatorScript : MonoBehaviour
 
             if (AnimationLayers.Count > 0
                 && AnimationLayers[0].Animations.ContainsKey(currentAnimation)
-                && AnimationLayers[0].Animations[currentAnimation].Length >= currentSprite)
+                && AnimationLayers[0].Animations[currentAnimation].Length <= currentSprite)
             {
                 currentSprite = 0;
                 if (QueuedAnimation != null)

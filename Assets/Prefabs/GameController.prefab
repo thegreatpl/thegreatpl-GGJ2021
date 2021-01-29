@@ -43,3 +43,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57817028c95dc0144ae479545352e26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefabs:
+  - Prefab: {fileID: 1154899701159217344, guid: 4e0387e5c864c3a4bb1aa14e2eb9a7b1, type: 3}
+    Name: Entity
+  - Prefab: {fileID: 6829555793206104205, guid: 23e47280d73a4b840b03a9f6dfaa5fb8, type: 3}
+    Name: AnimationLayer
+  World: {fileID: 0}
+  animationLayers:
+  - Name: blackf
+    layer: body
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -5177304158671188453, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 410636884098016610, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -5397613772154143719, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 3889968165294534642, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -5177304158671188453, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 3441711150104731841, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 2377367486103500801, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 575535862222278186, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 4515631917928451490, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -338554352334767233, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 2402469966321984463, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -5907080373524611989, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 7201039732279758743, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -813782361447937095, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -4677197294457319215, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -4651074590568880854, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 2034357324446438819, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -5103246204941622236, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 7697604415373847030, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 7697604415373847030, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -6699732208028832918, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -5165185996045838613, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+    - Name: 
+      Sprites: []
+    - Name: 
+      Sprites: []

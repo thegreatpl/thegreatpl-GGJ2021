@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class WorldScript : MonoBehaviour
 {
-    public List<PrefabObj> Prefabs; 
+
+    public Vector2 SpawnPoint; 
 
     // Start is called before the first frame update
     void Start()
