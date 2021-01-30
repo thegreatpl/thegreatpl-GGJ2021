@@ -25,10 +25,14 @@ public class GameManager : MonoBehaviour
 
     public GameObject Player;
 
+
+    public MusicPlayer MusicPlayer; 
+
     // Start is called before the first frame update
     void Start()
     {
-        GM = this; 
+        GM = this;
+        MusicPlayer = GetComponentInChildren<MusicPlayer>(); 
         MainCamera = Camera.main;
         if (MainCamera == null)
             MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
@@ -113,7 +117,7 @@ public class GameManager : MonoBehaviour
     public void LoadMenu()
     {
         StopAllCoroutines();
-        MainCamera.transform.position = Vector2.zero; 
+        MainCamera.transform.position =new Vector3(0, 0, MainCamera.transform.position.z); 
         World = null;
         if (Player != null)
             Destroy(Player); 
