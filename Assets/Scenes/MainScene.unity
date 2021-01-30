@@ -1494,7 +1494,7 @@ PrefabInstance:
     - target: {fileID: 6503314254941981973, guid: f1ddab46d68598542a072243296b00c3, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 853c3c4cdaa925a498314021c38d826b, type: 3}
+      objectReference: {fileID: 8300000, guid: b3f8c0a9c61c7bc4e8e084361ef8ea9c, type: 3}
     - target: {fileID: 8228066099479852194, guid: f1ddab46d68598542a072243296b00c3, type: 3}
       propertyPath: m_Name
       value: AtmosphericNoiseTrigger (1)
@@ -2068,3 +2068,64 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+--- !u!1001 &8289788332340196336
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.40995
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 233322895460318280, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606682287579063970, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: m_Name
+      value: CollectableEgg
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384100137358335243, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: EggName
+      value: test_egg
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
