@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57817028c95dc0144ae479545352e26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartScene: MainScene
   MainCamera: {fileID: 0}
   Prefabs:
   - Prefab: {fileID: 1154899701159217344, guid: 4e0387e5c864c3a4bb1aa14e2eb9a7b1, type: 3}
@@ -2747,4 +2748,32 @@ MonoBehaviour:
       - {fileID: -4664883425211043291, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
       - {fileID: 67203780413127644, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
       - {fileID: 1658345341792607301, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: attackup
+      Sprites:
+      - {fileID: -8434595112209358715, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 8041245115775787869, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 8041245115775787869, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 8041245115775787869, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: -8434595112209358715, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+    - Name: attackleft
+      Sprites:
+      - {fileID: -4363176328497464067, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4656930459555588648, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4656930459555588648, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4656930459555588648, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: -4363176328497464067, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+    - Name: attackdown
+      Sprites:
+      - {fileID: -3448452170273209441, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 7283690539203732531, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 7283690539203732531, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 7283690539203732531, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: -3448452170273209441, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+    - Name: attackright
+      Sprites:
+      - {fileID: 2235828382937205190, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4801087460018442890, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4801087460018442890, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4801087460018442890, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 2235828382937205190, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
   Player: {fileID: 0}

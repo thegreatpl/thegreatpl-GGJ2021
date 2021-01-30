@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WalkingSpeed: 3
+  AttackDistance: 1.5
 --- !u!50 &4915419969294320582
 Rigidbody2D:
   serializedVersion: 4

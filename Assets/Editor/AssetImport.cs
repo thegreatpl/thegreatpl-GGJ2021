@@ -161,6 +161,32 @@ public class AssetImporter : MonoBehaviour
             Sprites = GetWalkAnimation(sprites, name, 8, 4)
         });
 
+
+
+        var attksprites = AssetDatabase.LoadAllAssetsAtPath("Assets/Resources/Sprites/Chickens/chicken_eat.png").Where(x => x is Sprite).Cast<Sprite>().ToList();
+
+        animationObjs.Add(new AnimationObj()
+        {
+            Name = "attackup",
+            Sprites = ChickenAttackSprite(attksprites, "chicken_eat", 0)
+        });
+        animationObjs.Add(new AnimationObj()
+        {
+            Name = "attackleft",
+            Sprites = ChickenAttackSprite(attksprites, "chicken_eat", 4)
+        });
+        animationObjs.Add(new AnimationObj()
+        {
+            Name = "attackdown",
+            Sprites = ChickenAttackSprite(attksprites, "chicken_eat", 8)
+        });
+        animationObjs.Add(new AnimationObj()
+        {
+            Name = "attackright",
+            Sprites = ChickenAttackSprite(attksprites, "chicken_eat", 12)
+        });
+
+
         animationObj.Animations = animationObjs; 
 
         return animationObj; 
@@ -174,5 +200,20 @@ public class AssetImporter : MonoBehaviour
             spriteret.Add(sprites.FirstOrDefault(x => x.name == $"{name}_{idx}")); 
         }
         return spriteret.ToArray(); 
+    }
+
+
+    static Sprite[] ChickenAttackSprite(List<Sprite> sprites, string name, int startno)
+    {
+        var retval = new Sprite[5];
+
+        retval[0] = sprites.FirstOrDefault(x => x.name == $"{name}_{startno}");
+        retval[1] = sprites.FirstOrDefault(x => x.name == $"{name}_{startno + 1}");
+        retval[2] = sprites.FirstOrDefault(x => x.name == $"{name}_{startno + 1}");
+        retval[3] = sprites.FirstOrDefault(x => x.name == $"{name}_{startno + 1}");
+        retval[4] = sprites.FirstOrDefault(x => x.name == $"{name}_{startno}");
+
+
+        return retval; 
     }
 }

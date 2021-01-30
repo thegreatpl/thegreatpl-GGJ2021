@@ -28,8 +28,11 @@ public class Movement : MonoBehaviour
                 FacingDirection = _movementDirection;
                 _movementDirection = Direction.None;
             }
-            else
-                _movementDirection = value; 
+            else if (value != Direction.None)
+            {
+                _movementDirection = value;
+                FacingDirection = value; 
+            }
         }
     }
 
@@ -48,7 +51,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (AnimatorScript.QueuedAnimation == null) //only move if there is not an attack or hit animation taking place. 
+        if (!AnimatorScript.RunningQueued) //only move if there is not an attack or hit animation taking place. 
         {
             switch (_movementDirection)
             {

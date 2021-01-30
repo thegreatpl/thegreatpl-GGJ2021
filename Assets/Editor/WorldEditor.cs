@@ -43,7 +43,7 @@ public class WorldEditor : MonoBehaviour
             if (obj != null)
             {
                 DestroyImmediate(obj);
-                EditorApplication.SaveScene(); 
+                EditorSceneManager.SaveScene(scene); 
             }
 
         }

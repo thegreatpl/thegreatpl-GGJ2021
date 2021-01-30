@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public string StartScene = "MainScene"; 
 
     public Camera MainCamera; 
 
@@ -41,6 +42,9 @@ public class GameManager : MonoBehaviour
         //cleanup old game. 
         if (Player != null)
             Destroy(Player.gameObject);
+
+        if (MainCamera == null)
+            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>(); 
 
         yield return null; 
 
@@ -80,7 +84,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(player);
         yield return null;
 
-        StartCoroutine(LoadScene("MainScene")); 
+        StartCoroutine(LoadScene(StartScene)); 
     }
 
     public IEnumerator LoadScene(string scene)
@@ -122,7 +126,7 @@ public class GameManager : MonoBehaviour
             layer.GetComponent<SpriteRenderer>().color = Color.red;
 
             var cont = chick.GetComponent<ChickenController>();
-            cont.Target = Player;
+            cont.Target = Player.GetComponent<Attributes>();
             cont.RemainingLife = spawner.Lifetime; 
         }
 

@@ -15,7 +15,16 @@ public class AnimatorScript : MonoBehaviour
 
     public string currentAnimation;
 
-    public string QueuedAnimation = null; 
+    public string QueuedAnimation = null;
+
+    bool _queueLockout = false; 
+
+    public bool RunningQueued
+    {
+        get { return QueuedAnimation != null || _queueLockout; }
+    }
+
+    
 
     // Start is called before the first frame update
     void Start()
@@ -40,10 +49,12 @@ public class AnimatorScript : MonoBehaviour
                 && AnimationLayers[0].Animations[currentAnimation].Length <= currentSprite)
             {
                 currentSprite = 0;
+                _queueLockout = false; 
                 if (QueuedAnimation != null)
                 {
                     currentAnimation = QueuedAnimation;
-                    QueuedAnimation = null; 
+                    QueuedAnimation = null;
+                    _queueLockout = true; 
                 }
             }
 
@@ -55,16 +66,20 @@ public class AnimatorScript : MonoBehaviour
         count++; 
     }
 
-    public void SetAnimation(string animation)
+    public void SetAnimation(string animation, bool force = false)
     {
         if (currentAnimation == animation)
             return;
 
-        if (QueuedAnimation != null)
-            QueuedAnimation = null;
+        if (RunningQueued && !force)
+        {
+            return; 
+        }
+        _queueLockout = false;
+        QueuedAnimation = null; 
 
         currentAnimation = animation;
-        count = 0;
+        count = AnimationRate;
         currentSprite = 0; 
     }
 

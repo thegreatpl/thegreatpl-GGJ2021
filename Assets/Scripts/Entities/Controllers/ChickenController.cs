@@ -9,7 +9,7 @@ public class ChickenController : BaseAI
 
     public int RemainingLife; 
 
-    public GameObject Target; 
+    public Attributes Target; 
     // Start is called before the first frame update
     void Start() 
     {
@@ -28,10 +28,44 @@ public class ChickenController : BaseAI
             DumbMoveToPostion(Target.transform.position); 
         }
 
+        Attack(); 
+
         RemainingLife--;
         if (RemainingLife < 0)
             Death();
     }
+
+
+    void Attack()
+    {
+        
+        if (!Movement.AnimatorScript.RunningQueued 
+            && Vector3.Distance(Target.transform.position, transform.position) 
+            <= Movement.Attributes.AttackDistance)
+        {
+            switch (Movement.FacingDirection)
+            {
+                case Assets.Scripts.Entities.Enums.Direction.None:
+                    break;
+                case Assets.Scripts.Entities.Enums.Direction.Up:
+                    
+                    Movement.AnimatorScript.QueueAnimation("attackup");
+                    break;
+                case Assets.Scripts.Entities.Enums.Direction.Right:
+                    Movement.AnimatorScript.QueueAnimation("attackright");
+                    break;
+                case Assets.Scripts.Entities.Enums.Direction.Down:
+                    Movement.AnimatorScript.QueueAnimation("attackdown");
+                    break;
+                case Assets.Scripts.Entities.Enums.Direction.Left:
+                    Movement.AnimatorScript.QueueAnimation("attackleft");
+                    break;
+            }
+            Target.TakeDamage(Movement.Attributes.Attack); 
+          
+        }
+    }
+
 
     void Death()
     {
@@ -39,5 +73,5 @@ public class ChickenController : BaseAI
 
         Destroy(gameObject); 
     }
-    
+
 }

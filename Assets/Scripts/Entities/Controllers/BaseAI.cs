@@ -55,4 +55,8 @@ public class BaseAI : MonoBehaviour
             Movement.MovementDirection = Extensions.RandomDiraction();
         }
     }
+
+
+
+   
 }
