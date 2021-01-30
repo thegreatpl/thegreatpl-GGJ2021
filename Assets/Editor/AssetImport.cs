@@ -112,10 +112,10 @@ public class AssetImporter : MonoBehaviour
         var animationObj = new AnimationLayerObj()
         {
             Name = "Chicken",
-            layer = "chicken",
+            layer = "Chicken",
             
         };
-        var sprites = AssetDatabase.LoadAllAssetsAtPath("Assets/Resources/Sprites/Chickens").Where(x => x is Sprite).Cast<Sprite>().ToList();
+        var sprites = AssetDatabase.LoadAllAssetsAtPath("Assets/Resources/Sprites/Chickens/chicken_walk.png").Where(x => x is Sprite).Cast<Sprite>().ToList();
         var animationObjs = new List<AnimationObj>();
 
         string name = "chicken_walk"; 

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2826078970861123849}
   - component: {fileID: 2000850738166212360}
   - component: {fileID: 4915419969294320582}
+  - component: {fileID: 8990631921316998608}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74f994c6d2e74a4e8756e6963321ba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WalkingSpeed: 5
+  WalkingSpeed: 3
 --- !u!50 &4915419969294320582
 Rigidbody2D:
   serializedVersion: 4
@@ -129,3 +130,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &8990631921316998608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3900913220654177840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc6d488384f01e40b3f74202c2604c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Movement: {fileID: 0}
+  Target: {fileID: 0}

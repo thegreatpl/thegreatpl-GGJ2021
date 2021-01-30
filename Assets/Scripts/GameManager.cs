@@ -15,7 +15,10 @@ public class GameManager : MonoBehaviour
     public WorldScript World;
 
 
-    public List<AnimationLayerObj> animationLayers; 
+    public List<AnimationLayerObj> animationLayers;
+
+
+    public GameObject Player;
 
     // Start is called before the first frame update
     void Start()
@@ -76,20 +79,33 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(player);
             yield return null; 
         }
-
+        Player = player; 
         World = FindObjectOfType<WorldScript>();
 
         player.transform.position = World.SpawnPoint;
 
 
+        yield return StartCoroutine(SpawnChickens(10)); 
     }
 
 
 
 
-    IEnumerator SpawnChickens()
+    IEnumerator SpawnChickens(int chickenNumber)
     {
+        var chicken = Prefabs.FirstOrDefault(x => x.Name == "Chicken"); 
+        var layerprefab = Prefabs.FirstOrDefault(x => x.Name == "AnimationLayer");
 
+        for (int idx = 0; idx < chickenNumber; idx++)
+        {
+            var chick = Instantiate(chicken.Prefab);
+
+            var layer = Instantiate(layerprefab.Prefab, chick.transform);
+            layer.GetComponent<AnimationLayer>().ApplyAnimations(animationLayers.Where(x => x.layer == "Chicken").GetRandom());
+            layer.GetComponent<SpriteRenderer>().color = Color.red;
+
+            chick.GetComponent<ChickenController>().Target = Player; 
+        }
 
         yield return null; 
     }

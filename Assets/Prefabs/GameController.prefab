@@ -2709,41 +2709,42 @@ MonoBehaviour:
       - {fileID: 7010847764035942540, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
       - {fileID: -1297790527752134490, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
   - Name: Chicken
-    layer: chicken
+    layer: Chicken
     Animations:
     - Name: idleleft
       Sprites:
-      - {fileID: 0}
+      - {fileID: 8613657268273329913, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
     - Name: idleright
       Sprites:
-      - {fileID: 0}
+      - {fileID: -5036017139838410224, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
     - Name: idleup
       Sprites:
-      - {fileID: 0}
+      - {fileID: -6481060874125336469, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
     - Name: idledown
       Sprites:
-      - {fileID: 0}
+      - {fileID: -8747096802321733386, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
     - Name: walkleft
       Sprites:
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
+      - {fileID: 8613657268273329913, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -6664663928148967335, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -1366058482103731389, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 9153089711493978583, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
     - Name: walkright
       Sprites:
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
+      - {fileID: -5036017139838410224, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -6782491219120640500, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -1427576491377810839, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 8485501925131045858, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
     - Name: walkup
       Sprites:
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
+      - {fileID: -6481060874125336469, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 1097091891694411030, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -7424430767614026342, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -8697037474915094534, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
     - Name: walkdown
       Sprites:
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
+      - {fileID: -8747096802321733386, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -4664883425211043291, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 67203780413127644, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 1658345341792607301, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+  Player: {fileID: 0}
