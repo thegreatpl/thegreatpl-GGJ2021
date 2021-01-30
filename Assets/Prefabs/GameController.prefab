@@ -43,11 +43,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57817028c95dc0144ae479545352e26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainCamera: {fileID: 0}
   Prefabs:
   - Prefab: {fileID: 1154899701159217344, guid: 4e0387e5c864c3a4bb1aa14e2eb9a7b1, type: 3}
     Name: Entity
   - Prefab: {fileID: 6829555793206104205, guid: 23e47280d73a4b840b03a9f6dfaa5fb8, type: 3}
     Name: AnimationLayer
+  - Prefab: {fileID: 3900913220654177840, guid: 1bf59588af91e7d4c871bbb02e5522fe, type: 3}
+    Name: Chicken
   World: {fileID: 0}
   animationLayers:
   - Name: female_black
@@ -2705,3 +2708,42 @@ MonoBehaviour:
       - {fileID: -1016048934305694698, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
       - {fileID: 7010847764035942540, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
       - {fileID: -1297790527752134490, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+  - Name: Chicken
+    layer: chicken
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 0}
+    - Name: idleright
+      Sprites:
+      - {fileID: 0}
+    - Name: idleup
+      Sprites:
+      - {fileID: 0}
+    - Name: idledown
+      Sprites:
+      - {fileID: 0}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - Name: walkright
+      Sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - Name: walkup
+      Sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}

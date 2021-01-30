@@ -20,9 +20,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        World = FindObjectOfType<WorldScript>();
         MainCamera = Camera.main;
-
+        DontDestroyOnLoad(this); 
         StartCoroutine(LoadScene()); 
     }
 
@@ -39,7 +38,7 @@ public class GameManager : MonoBehaviour
 
         GameObject player;
         player = GameObject.FindGameObjectWithTag("Player");
-
+        //ensure the player exists. 
         if (player == null)
         {
 
@@ -74,8 +73,24 @@ public class GameManager : MonoBehaviour
             legsyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Legs").GetRandom());
             legsyal.Sprite.sortingOrder = 2;  
 
-            DontDestroyOnLoad(player); 
+            DontDestroyOnLoad(player);
+            yield return null; 
         }
+
+        World = FindObjectOfType<WorldScript>();
+
         player.transform.position = World.SpawnPoint;
+
+
+    }
+
+
+
+
+    IEnumerator SpawnChickens()
+    {
+
+
+        yield return null; 
     }
 }
