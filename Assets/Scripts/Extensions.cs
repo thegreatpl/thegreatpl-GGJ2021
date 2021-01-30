@@ -20,7 +20,7 @@ public static partial class Extensions
         if (ts.Count() < 1)
             return default(T); 
 
-        return ts.ElementAt(UnityEngine.Random.Range(0, ts.Count()-1));
+        return ts.ElementAt(UnityEngine.Random.Range(0, ts.Count()));
     }
 
     /// <summary>
@@ -29,7 +29,19 @@ public static partial class Extensions
     /// <returns></returns>
     public static Direction RandomDiraction()
     {
-        return (Direction)UnityEngine.Random.Range(0, 4); 
+        return (Direction)UnityEngine.Random.Range(0, 5); 
+    }
+
+    /// <summary>
+    /// Checks to see if the collection contains all items from the other collection. 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="a"></param>
+    /// <param name="b"></param>
+    /// <returns></returns>
+    public static bool ContainsAllItems<T>(this IEnumerable<T> a, IEnumerable<T> b)
+    {
+        return !b.Except(a).Any();
     }
 }
 

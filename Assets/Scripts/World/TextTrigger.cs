@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TextTrigger : MonoBehaviour
 {
+    public AudioClip OnActiveSound; 
+
     [TextArea]
     public string Text;
 
@@ -25,7 +27,9 @@ public class TextTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            GameManager.GM.UIGame.DisplayText(Text, Seconds); 
+            GameManager.GM.UIGame.DisplayText(Text, Seconds);
+            if (OnActiveSound != null)
+                GameManager.GM.SoundEffectPlayerScript.PlayAudio(OnActiveSound); 
         }
     }
 }

@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57817028c95dc0144ae479545352e26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartScene: MainScene
+  StartScene: Lobby
   MainCamera: {fileID: 0}
   Prefabs:
   - Prefab: {fileID: 1154899701159217344, guid: 4e0387e5c864c3a4bb1aa14e2eb9a7b1, type: 3}
@@ -366,6 +366,10 @@ MonoBehaviour:
     Name: Chicken
   - Prefab: {fileID: 7754136178326244512, guid: 7cf5f1131fb6c8c44aad12ba3ee876a2, type: 3}
     Name: MainCamera
+  - Prefab: {fileID: 3485406828701557715, guid: 4f79004530bdc3442a9a128337454f99, type: 3}
+    Name: Explosion
+  - Prefab: {fileID: 7286153642440807006, guid: 3f66a340c4257774db4c8d2c89075688, type: 3}
+    Name: EggBullet
   World: {fileID: 0}
   animationLayers:
   - Name: female_black
@@ -3407,6 +3411,7 @@ MonoBehaviour:
       - {fileID: 2235828382937205190, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
   Player: {fileID: 0}
   MusicPlayer: {fileID: 0}
+  SoundEffectPlayerScript: {fileID: 0}
   UIGame: {fileID: 0}
   Eggs: 0
   Flags: []
