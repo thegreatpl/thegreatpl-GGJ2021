@@ -404,3 +404,2304 @@ MonoBehaviour:
       - {fileID: 4515487334303920351, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
       - {fileID: 2736720268661943452, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
       - {fileID: -5983926648453484427, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
+  - Name: female_apron
+    layer: Chest
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 632726019321192437, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -4625362555352192931, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -6844550411025057414, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 4447799426402129546, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 632726019321192437, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 5621305724255003438, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 453956280582459369, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 6286048701765426422, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -3965334252938694525, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 8776430301647182390, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -2693607048314187761, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 1005745472150351682, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -3929225377932508124, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -4625362555352192931, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -1358394442907383911, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 2295497210355081461, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 1134932454333179566, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 5207480240641013500, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 2018339891305681524, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 7746919059640083669, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -4344603176214763818, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 3975192247820529874, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -6844550411025057414, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 3224197735147313651, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -1307798242749639059, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 2453504083897891490, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 6565596413233267805, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -852273556774120459, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 8823754522226504346, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 5645036321507023587, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -2627981845875024217, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 4447799426402129546, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -8567037062299780997, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -6360086694534037450, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 1317320632780482786, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -8080435648085467936, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -5315210058063038584, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 3901676909007358512, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -7825497187183365373, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: -8430632053420335095, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+  - Name: female_corset
+    layer: Chest
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -7089932976481407370, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 5703934010247101094, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 5253175764999627265, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 9098946345408710728, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -7089932976481407370, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -7127777963984940126, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 4272776784600163060, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -5769951423183495720, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -4037328945370657903, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 7853439281643800970, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 2248917722759400098, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 6323201383399562714, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 1836538971838129122, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 5703934010247101094, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -5329723818016332633, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -4713644545185536146, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -2593296185976541632, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 3749273630002129972, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -5582925346496619652, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 1474035844011340533, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -8591738411054627335, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 6253584121754261155, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 5253175764999627265, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 5494580281431757714, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 8589807865605382856, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 1551539103260187953, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 1910246310309856217, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -6371543156651046322, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -3839409751220419142, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 3302218288470452381, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -6938902763989133345, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 9098946345408710728, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 1893592510650518949, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 7477125984704199208, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 8017972657708779299, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -5287332932987634713, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -8506798755464376906, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -8601749314941552786, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 756718781290449196, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 1168856358288011746, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+  - Name: female_dress_w_sash_female
+    layer: Chest
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -1244524415548783997, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 3062096186248478819, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -979721864300767895, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -2720447805988560971, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -1244524415548783997, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -1196665438915380418, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -5765288101603633238, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -4502525126824980185, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -6379969990663712489, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -7837904712780435515, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -840678071125779661, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 4253604930641799296, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 3799496723793501940, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 3062096186248478819, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 3325175083544281126, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 463865627778763427, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -1721359972916803206, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 4327878562869091927, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -1368901068456783810, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -7239209128534738305, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -1325123231496275859, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 8064262464310789487, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -979721864300767895, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -1793193022440039922, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -3384400905338505339, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -1748310087440995528, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 8820878479748219760, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 507872036553731653, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -99550432571690852, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -5890636494630341216, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -4649086472446965382, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -2720447805988560971, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -5978681398862843986, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -5466749450002183166, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 6027634839400869904, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 3380574921641587791, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 4290973945131476391, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 2381717128692779023, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 4927790687255685332, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -7758852865676029284, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+  - Name: female_leather
+    layer: Chest
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 5081587290019879824, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 8418257659312663835, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 7928993006193526616, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -5761472374957954754, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 5081587290019879824, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 1595844472421142144, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -5919534933237054089, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -3770239723092364657, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -2102044987653931296, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 2794061209866483170, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -5240325680840675141, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -5773329991131877580, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -8976332789499736546, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 8418257659312663835, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 3999152056920404275, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 8987381313143812720, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -7094645048968499993, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -8197751317673508724, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 5105672437193618196, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -3596606737113178261, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -6778641955340521848, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -3838430460345008480, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 7928993006193526616, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 616542774787216704, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -139532064803687167, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 6357589919135489258, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 6057904241225219585, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -4875747707586170029, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 4330668906976940578, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -6095966460440720790, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 99938580583296143, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -5761472374957954754, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -3396860206253486596, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 533783232876842515, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -3981427872448478366, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 2651218143355406763, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -2643246731250456204, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -8026377507967591726, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 205716263553477861, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 6273190558473306489, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+  - Name: female_shirt_sleeveless
+    layer: Chest
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -6968810852438312154, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -3279938426913435715, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 7779383259593014636, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 566663079541450084, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -6968810852438312154, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 9054501193343594546, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -5098177857188405487, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -7005726805459283187, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 595209085663774583, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -1407696055751727823, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -3829439902767376663, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -2951860031110236049, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 1938998237426174199, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -3279938426913435715, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -3205908535624437843, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 3251561499965457074, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -1754751070478196610, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 4678799725798142207, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -2354927398219352374, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -5778208522237359477, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 7520831403446983770, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 4240067902154476775, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 7779383259593014636, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 8405404989465763816, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -5327422626747974446, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -988881651390939773, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -4074741849076891087, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 5268388679723739184, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 769654904644187811, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -7850969745188032978, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 9153397600808293245, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 566663079541450084, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -6462115990107195163, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 1565212247071473543, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -6143745409903848806, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -7461105175722820248, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 629330213866702372, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 1541166386272659297, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 6173878028637791389, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -134333242169949303, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+  - Name: female_shirt_tanktop
+    layer: Chest
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -1598778785512556113, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -5102201212947262774, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -2016676349334370574, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -1625955453558662304, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -1598778785512556113, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 8785627668735452201, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 5227040562399356391, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 1970256387658036232, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 5372815499739903317, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 619058038122704297, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -6489439841119049178, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -1073325054993846903, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 3187532196226713614, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -5102201212947262774, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -2133386613409267047, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 2607419639796885206, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -395765164244589153, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -1644584030872052843, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -2206167086542334190, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 3493315655933639565, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 2682632312642749894, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 385176482140029588, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -2016676349334370574, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 470386677077452959, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -963851696455177323, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -7023917764984188628, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -3176696955049892672, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 3982057975737546534, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -8069938481854056838, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 5081908405447901160, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -596389181332823558, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -1625955453558662304, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -4100144410818342085, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -7537669519455186401, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 896459858607789873, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -2731221761262400423, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 5803026692805312273, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -4464075896761315266, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -714536700570313722, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 8967718903780882616, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+  - Name: female_tightdress
+    layer: Chest
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 6474109241403821964, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 6834563455770977635, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 156013852827385839, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -3425121094082122178, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 6474109241403821964, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -8993723904688393873, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 7752485652623680308, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -3631081979564918261, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -8118427764997488954, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -4605183995344337486, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -8464016908106656137, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -5541689311657476486, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -3635417636302093877, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 6834563455770977635, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -2609212801601362201, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 7595830070094156664, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 457971238669839017, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 6594836560053691105, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -7190229151875754974, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 4253071896266646993, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 1651113475007522579, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 7993989394189835157, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 156013852827385839, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -6672271485898146918, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 9172094901426383144, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 4276119188088184614, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 2604393706651930469, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 4953746901320019426, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -3989571103027815867, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -6011322223282111956, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 6457477495976109573, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -3425121094082122178, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -7433912827083127672, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -6863075281453400298, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 5455817827565504488, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 8770117342877786382, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -2572471071104155589, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 4856007439559919342, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 3221028097761663273, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -8056742386343198922, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+  - Name: female_bangs
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -5223459976234340558, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -922507732935746481, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 8644071253085503823, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -3910508803093679902, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -5223459976234340558, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 6787244431436490546, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -2475780882019214173, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -1917296574742545803, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 6104962585531206352, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 8729751489712699786, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 3460617257774439924, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -661707420849375201, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -7988058693370347408, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -922507732935746481, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 3596436102413157603, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 195809646638886218, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -5634244655728010755, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -7712877947643323530, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -5024649770193218173, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -3643591884248831036, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 7757810177687095811, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 2641941665639028546, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 8644071253085503823, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 1114367549438921552, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 3246298029914126506, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 4954706641344054686, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -5266494688033405011, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 1276399041893593671, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 2797847430572717365, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 6710853014371482852, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -9169047951408959905, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -3910508803093679902, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 3508324965884635763, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 2365814607747311135, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -4666531316270751637, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: -7738908236360827811, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 6674975037785530038, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 1669857038710810830, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 4727637393441554124, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 4554490712018230879, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+  - Name: female_bangslong
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -8994318882388206402, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 5649922492886696325, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 1762669315556256915, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -6604154116397895623, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -8994318882388206402, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -2120458029975760785, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -5443026640982369258, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -8278449400623520, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 7560219473520078739, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 1023356668101154002, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 1123663977052401881, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -9057246187764122150, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 7392786886023576538, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 5649922492886696325, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 9118680322048604335, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -3040329292701939071, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 7979079645807226, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 5736884682539710730, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -4154322672507123862, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 5900202723176101209, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 8393915470677730064, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -6626269225307396258, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 1762669315556256915, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -7936777490505817281, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -3349745803945851306, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 7822040124499886983, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 4589800869582328121, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 3476904624950640912, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -8516956062082492180, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 4306156872148910165, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -253224742124865437, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -6604154116397895623, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -6817536951604034546, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -2285616046046124281, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 2628718959975978633, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -3468144395581848793, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -7831139568246208781, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -8001376063920209702, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 217992115506152212, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 130843867563155541, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+  - Name: female_bangslong2
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -6751064805995945375, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 6917057612818967464, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -4068044250035825513, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 9110029696314198919, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -6751064805995945375, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -6198171940104655332, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 2443608367669838963, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 6439380088736974988, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 3006908561075482263, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -2755622328264948848, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 9126659990900793410, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -5265325069276088296, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -1906607511334094606, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 6917057612818967464, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 9043657332071806048, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -6759814067914988920, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 955609665974413534, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 252365281352792987, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 2633988585631756969, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 5573695683223598203, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 8924531971870816191, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -5308924800725237228, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -4068044250035825513, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -5769585272051134923, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 1486355662279865739, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 799115276088636273, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -567139829337553388, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -2482047990550533238, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 7862473111986791050, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -7032046897572864697, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 6518879536159210915, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 9110029696314198919, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -7706371891309102736, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -3713256795282630388, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 5381674389822751602, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 7278719991700989066, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 4405508224162130502, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 1982449743851452423, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -5483304981524978453, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -4981834644385184254, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+  - Name: female_bangsshort
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 233282936262360190, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 8706577061794536110, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -1726749592328161355, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 2546412809627486840, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 233282936262360190, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -7731119152898145957, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 3983717364716965712, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 3623546671072480816, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -6976121688067009132, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 6776045704585324292, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -7197360296282446472, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 1796315028310976743, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -5354081695886106899, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 8706577061794536110, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -5709966208070766071, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 8152338862122726067, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -571424313276243420, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 2723977574460870571, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 5915227491971554184, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 1338954377299609026, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 8749764427282119150, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 7634279945038291933, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -1726749592328161355, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -8070099648137972193, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 5865984438391790727, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 2018570406134452132, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 4767407577459714181, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 2647854097021968290, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 3765446777305427078, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 4509038248721244997, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 6351734654126535539, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 2546412809627486840, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -1171954098822092873, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 2500083250899332892, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 3570350767067968753, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 3799211514900804378, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 4995389402075934453, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 347047012693916883, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 3778616546148206954, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -4713092684836494149, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+  - Name: female_bedhead
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 6418200849958988689, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 8024182549530939142, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 728589750993506776, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -5483040694067915513, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 6418200849958988689, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 4819209559021963315, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -4994366576085785640, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 161731090206885104, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -6888421015726708555, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 4913883799412937668, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -2382992562019849414, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -4094172434883996450, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -7465440691690148866, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 8024182549530939142, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -8110425510454354409, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -7149096930911555742, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -8527410989622846415, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 4233991853380772347, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -4679650876523333623, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 1590287110963388024, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 1656414303822104204, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -7988447994015083332, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 728589750993506776, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 3562477123761415821, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -499636689488789321, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 7297054290589323207, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -7238320101266480682, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 2235098868132262309, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 6457260461407153245, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 3377704978706195559, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 410413787249184014, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -5483040694067915513, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 359140994987468188, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -6100128849796542279, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -4928783959706406050, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 2125295407417712900, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 3709129326862602172, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 2163353100342339738, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 6164598985974899060, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 3773865805394801417, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+  - Name: female_bunches
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 1571078512732583816, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 4679166598003915349, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 5941534613323932827, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -4414451132519883105, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 1571078512732583816, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 1088128266831655072, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 4858099761505457516, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 24105859465703663, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -4872875663538429667, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 2329278844801194218, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -3100949495498114482, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -7687254111886651017, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 5265024070327401595, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 4679166598003915349, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 5809257489288024602, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -2638483831804352385, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -8576641948088076682, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -5048306953958948155, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -2410775720781788621, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -8114531667177129054, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 8389495907396415260, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 6543535868806218721, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 5941534613323932827, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -6882165674667822792, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 4995295100180663413, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 600585219491444320, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 1017334812311994578, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 1174975233540188979, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -6762771473178712307, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 2828690495237005035, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -8729456016352447720, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -4414451132519883105, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -4852624409006872126, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 5625493486302732160, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -1092283300490535538, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 9098589205545125155, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 8432040290264432457, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -2102362123839210728, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 8849180353409925714, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -275233790428019034, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+  - Name: female_jewfro
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 4838471050167103591, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 4104839619741758622, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 6078372395624929196, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 7866595403208626293, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 4838471050167103591, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -4712026016027865251, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 465462486834732437, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 431702861229813684, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 930099551372026084, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 506419228217379404, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -6038597368770171448, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -4112979814871585364, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -7498446902609066612, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 4104839619741758622, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 3395417571910108467, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -5107268382054777815, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -4406387221035283593, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -9137933691713178689, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 8059978137533381182, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 5653282707035547638, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -6677911021735590665, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 9222338994345689045, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 6078372395624929196, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 6767985801300099281, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 5018869722124237508, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -3593321164915046285, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 3751516493610047051, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 3669826417536851588, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 2311873306688152581, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -1544143704030217076, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 141365069234224401, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 7866595403208626293, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -9176395993736100406, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 1169138748273204455, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 8061801009915720188, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 676236033170492043, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -5505399292908143326, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -5184436917700985728, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -1745042414153112865, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -1148462970471085699, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+  - Name: female_long
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -4536865391289854739, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 9149243933081003038, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -7590908186461634970, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -5083946228933160405, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -4536865391289854739, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 3651089182860313969, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -3176307809829628453, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -5727257387353755744, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 5883298758270841523, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 7233054931093880979, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 8909836106470888214, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -1440339325793881552, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -5627115988773629016, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 9149243933081003038, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -3089472005713204204, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -1090867841742242186, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 5586716558465768876, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -2996945893013240134, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 8239196349722454366, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 630131497530339641, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -921725087422674218, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 4560083128304481906, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -7590908186461634970, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -2502329129559129624, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -8771820412950829678, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 5738836771390990926, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 5802515255356221573, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -3041299055070936166, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 167727683300411886, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -6883368099874765241, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 5872569689752190783, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -5083946228933160405, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 8465087687695496261, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -6787574779929665560, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 1195673431766237179, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 3022083674408854552, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -3747307878494182022, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 359223355968941062, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -5936855077765736225, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -666941875753862728, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+  - Name: female_longhawk
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -4123195921697178031, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 3220556709044474813, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 9147824536883104499, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 3432507991472640237, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -4123195921697178031, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 7605332301063778866, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -5454192024876326794, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 7483281251044449562, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 188013955596400094, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 5764963109752134941, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -5778608873714643055, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 4163904102765433268, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 3987122243090527256, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 3220556709044474813, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 3896709709407217799, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 3898001059913513416, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -5557529440058949701, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 2552773535941456497, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -6305474964633999923, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -7751224720925825154, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 5719367177999672690, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -213567649103253293, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 9147824536883104499, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -3186836608252023985, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 3813994492908407844, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 3761022630267196027, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -82919229959592283, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 4885301442460664033, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -1964322186363566351, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 4781904179155465369, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -2286853692838626602, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 3432507991472640237, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -5994939692416553466, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -6930443858198036876, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -1684438152983819810, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 3034776505915302290, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -5637266649709696873, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -868753627750295521, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -1505937945759702917, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 4213522203332717930, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+  - Name: female_longknot
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 7991638617160675087, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 8565115223980463317, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 5932648222799712019, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 4989739475988780987, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 7991638617160675087, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 6033789896241208392, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 9039257484764084591, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 5042101020122621114, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 4406482422060366674, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -7239509358723051244, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -1895569617761596644, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 796052775673567119, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 1745997831427574524, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 8565115223980463317, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -8938110544961704157, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -7946049064235732051, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 7585285854231928729, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -4035282405349385463, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 8225287303135464472, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -4176569312054761603, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 6266983833268730345, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 4847381828666076164, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 5932648222799712019, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 4063768758550500826, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 4470416811677248950, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -3144496824267449129, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 2136116699335138576, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 3406960369019523739, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 5178766192698259498, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 471106502337943915, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -4324120542740814629, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 4989739475988780987, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 8569453194020759785, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -6657353498879587188, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 2593634964487000654, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 9105516715919482377, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -5133700241547167346, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -5257645817569474341, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 3054691987313024672, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -104395514181195476, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+  - Name: female_loose
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 8121044456630323056, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 866583573757068094, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -3924302405091873285, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 3261766482601198233, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 8121044456630323056, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -5413444459574625771, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 604219331953109845, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -277372731392549468, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 4203291171715918161, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 3950586008955370522, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -5951671707390755297, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 8960463569927266971, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -2570372889691939974, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 866583573757068094, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 5231991114016715959, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -7915434021705220992, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 4307444350124807509, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 1295848992835267403, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 888042248442677377, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 6201050007127081345, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -6025782059438425048, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 131797822523455720, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -3924302405091873285, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 9047644882236372091, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -7016958768979135037, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 8010974017549929300, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 2800828784058289482, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 5134620967423734208, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 3306263416169015212, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 2049445215204019140, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -4600101101616806537, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 3261766482601198233, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -8503489398370665730, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 5426620342657438680, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 617748319123351516, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -7320032036874673636, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 2733428058833831328, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -315533444275571441, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -1841768836199020014, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -3853524126609223677, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+  - Name: female_messy1
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -7669665624330051217, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 8463783228818031072, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 4958166877759772825, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 4019859864464337063, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -7669665624330051217, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 2397750982473409768, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 23893949367268551, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 6774901331658135530, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -7625900929165903700, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 8305710587698940060, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 2865887198028527143, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 1459468174807129427, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 3068855046044592160, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 8463783228818031072, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 8718345210179466947, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 2295574051270583665, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 3235574002792284442, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -1948397445568839957, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 5511913258205715489, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 2958117137725777463, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -3731954092527751523, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 3143593685083204694, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 4958166877759772825, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 8498631468585540723, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -6798544430243595848, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -457363945836361800, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 8115110410445478286, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 5521970053222206010, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -5882932636504720750, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 900469488056390374, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -7437011035774623732, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 4019859864464337063, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -1952541017466941064, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 4643939531083926143, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -736047773504595796, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -6914620790406475668, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -1721263424801162159, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 1952469783315654475, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 1519033289451119727, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 6544317231336289682, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+  - Name: female_messy2
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 4386891218633349894, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -4228623352321043081, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -8853034209162713037, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 150319652065873939, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 4386891218633349894, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -7758271667300366101, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -8465118908295570562, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -7768274676056223485, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -222095094016775984, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 2659574034445580595, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -9186524664135043026, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 3132289160612246262, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 8456198569166474989, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -4228623352321043081, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -2707205552739961881, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -5279759672598883045, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -307767390146868292, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -3657594289673130340, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -3596865865873046926, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 2851460357959521893, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 8682997482254495769, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -4461221592116564948, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -8853034209162713037, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 8851952400327191376, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 5309107836215352076, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -5778426197374936906, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -8570456138935048142, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 4072719847481823440, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 8610415428596895339, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 6762656790004061617, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -6447798805763642146, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 150319652065873939, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 7739798953272199137, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -4864858043603660801, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 885252151526024668, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 7639353257458336619, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 4610581082833653983, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 1008555937337420129, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -678187594165865458, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -2429889782059535634, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+  - Name: female_mohawk
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 6984396960483129281, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -3749891386066124176, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -7402986147119087293, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 4873416844030124953, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 6984396960483129281, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -572365386270413816, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 5663621559284450446, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 5703189018664441317, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -3289739407242712565, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 5615291072858847447, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 4024977021988739778, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -8857673068339829977, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -8524739135119529220, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -3749891386066124176, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -4340698287468233653, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -5463636201250721255, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -2024721912990625822, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 504829599998480643, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 7534757636490389360, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -5284472141628406590, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 908350845063903508, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 2506050835486147137, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -7402986147119087293, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -7030010925505696222, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 5905902683383500457, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 8658661107105665082, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -5455897397231687604, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -6649154617415736161, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -4752282847222303732, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 8375293664268773990, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 5473665178596932421, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 4873416844030124953, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -5475056428537537616, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -9171151470427957048, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -3839880543039141323, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -2827809132607166248, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -6940049674720707670, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 7096618667946195149, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 2645981674116154583, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 1458928462023748647, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+  - Name: female_page
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -6325428780272046906, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -9162703674620328943, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 8881312018445643735, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -5163971463440248667, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -6325428780272046906, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 3286483862107979784, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 3370663896553444526, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 5950692268384589431, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 1021768464701101107, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -5874784622269254989, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 7622126669127098252, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 6002969225597776417, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -5988073376734253965, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -9162703674620328943, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -6715023426600891992, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -2783869782432243615, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -5974511439230205506, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -1183945269116239385, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -1463714380153983146, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 8782540674978422454, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 783241226981370391, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 878780215015115177, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 8881312018445643735, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -610025396141783489, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -8887490699817622197, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -6167429944720776451, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -7705020765924661293, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 3099529629290305371, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 7717617791758417808, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 6708372738996625872, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 6098094970068107183, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -5163971463440248667, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 6561949513246654332, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 7275291194753039094, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 1017435957980345531, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 7107079633897401591, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 6413893349090504740, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -757200328023958219, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 9196173811991648637, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -4522708887634013283, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+  - Name: female_page2
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 2277687693763312466, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 4173923403096857250, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 6032106423483520121, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 8662153045742076118, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 2277687693763312466, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 4057980036139326377, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 1317677173929159697, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 1604200654061594706, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 5340008344340512169, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 2805580649757448415, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -8011051123832606956, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 3947726353519063293, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -3659898000441626421, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 4173923403096857250, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -8069675517807398749, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -6164127593435156946, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 3685200129449847700, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 8171170306864461977, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 1719830733270483928, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 7558673430014277900, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 8368709186654477134, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 7963061413263077955, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 6032106423483520121, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 2931311273590331241, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 3163902115495918384, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -3192259844141850960, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 5206970205156008480, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -7150829375461187741, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 8872610435818810753, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -2183882577821459404, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -1989815496821985566, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 8662153045742076118, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 8751625874018964559, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -4147480559308142073, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -2087227472891013230, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -2634133562779044524, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 7594475466506390396, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -8570684087843903677, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 3276487616789356686, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 5223886813506747149, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+  - Name: female_parted
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -1204011530223279337, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -8340546186356476388, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 3048235911267877871, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -4161557357098304977, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -1204011530223279337, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 2638808295726935094, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -5332374846384530876, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 625565115891592511, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 6352324301912462671, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -371088004949102592, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -5932313334917922937, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -893991579980092447, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 5873138676149191796, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -8340546186356476388, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 6645160609011068984, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 728988057829105849, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -2157386207223566158, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -5361729814613394815, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -7489196680773707014, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 2786195616914759268, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 3816539607841235150, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -6746411217611218670, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 3048235911267877871, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -8058598171600388252, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 6331340506489758712, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -8456918122988795362, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 1216026182387441379, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 3410105336233209043, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -2539752911052566376, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 5721557962610370696, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -6355589347299762345, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -4161557357098304977, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 858694614658906050, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -25250880964086688, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -5384773137733376500, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -2321290868392816080, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 2985552836811862683, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 8112740897972198005, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -2339592144628172426, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 3951560882129780533, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+  - Name: female_pixie
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 4508571224025019343, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -8035232191086015753, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -8774202844704746529, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -1879268937101253664, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 4508571224025019343, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 1719204692546861798, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -2056971028310855667, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 8242452125434928477, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -3042069790439577419, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 2224973539495845561, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -4709268721827082467, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -7866126210372323742, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -2928713550557632019, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -8035232191086015753, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 4975467505811434911, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 634061233715137758, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -1708375389529184815, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 3239519811647256717, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -6522646257050680368, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -3356904897141302073, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -8821988103672900262, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 208101569547917567, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -8774202844704746529, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 996859961150229741, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -3975032635531514082, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -5106700176069777858, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -5637369793270557971, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 4230963437353400479, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -4837979107660095573, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -1008298899080569191, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -714976966656762504, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -1879268937101253664, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 434910972452645060, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -8928915389252119945, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 6045502258913153688, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -8348820460195259305, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 4284019162291343478, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 7493174202620479820, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -7723476271749458285, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -7459745119354728752, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+  - Name: female_plain
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -8124403867136510934, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -6366801068189573065, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 4017861232877861536, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -1339155296313467056, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -8124403867136510934, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -5762236835622309642, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 7651869945841331414, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -4710628749346090657, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -2639841664353955599, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 8461284383978045538, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 5784539055609627947, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 3330679095278054700, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 307566578925884431, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -6366801068189573065, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 6525181673359560741, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 8220824451304876242, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -6355395877784258697, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -7701115932919597340, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 8662797850454379920, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -2043628552932596385, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -6093748690816261293, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 378087425312284803, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 4017861232877861536, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -8154623128350180379, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 4917201994215229838, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 2146386702320000931, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 7710553903549651474, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -3142657914064176661, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -7616701077556532842, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 6869961536561882879, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -189911455999634484, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -1339155296313467056, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -3636135125330352906, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -5523186499187434201, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 5650472526030113481, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 1425690438732458934, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 4999634298996354791, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -817695645312485858, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 5333990917858017417, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 2431085476752231742, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+  - Name: female_ponytail
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -3054300838634999632, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 3961987845888429439, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -8298643720457662301, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 2322407665175079422, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -3054300838634999632, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -1687497025181263424, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -6480490544392931502, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -3907888605239124762, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -2851938885323230641, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 1891472826423547672, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -4985516606951878484, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 2139972855033050373, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -993494895826835560, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 3961987845888429439, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -522000878711066410, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -266674336513492201, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -8773693488609675722, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -287695872024146193, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -6229561226292205681, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 7169746259583001229, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -5515302436798757196, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -1441829601689766492, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -8298643720457662301, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 3810035611508648345, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -5677593513987912360, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -4835723495699351134, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 1048116694497216947, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -6029957355193720060, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 1095591782203878961, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 36028471686294314, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 2756742987908195605, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 2322407665175079422, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -4525517293868823985, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 6073008491534494630, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 9199306958050466139, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 1953607303333024779, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 7527307637865672828, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -5574400430404041226, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -4854749521036056200, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -1168923139007590430, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+  - Name: female_ponytail2
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 5467982243457524107, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 6506173078058261689, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -283108020625987047, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 5991482012506787495, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 5467982243457524107, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 5882902985128846643, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -9106590860647126370, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 7150151897583432075, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -3782396830478983797, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -971998142173131524, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 5284004477692828809, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 6699159529120801906, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -5004145309437253162, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 6506173078058261689, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 147121444909422043, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 2341321313689814072, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 3459963722053732828, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 333983440771937326, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -6740290579491303970, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -8133421505891440226, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 8381118804883678459, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 6361505361573211, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -283108020625987047, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 4624198556607324632, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 3949217561637742184, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 8955802174475231254, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 1134980221527197291, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 2579432652504594975, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -2044269585270384920, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -5169226733565600293, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 1278673210900557700, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 5991482012506787495, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -4170132698441965459, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 7004822880338894745, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 6500275058420454266, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -2273689972565781165, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 8920395559011048127, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -8531001443085914009, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 5210040791458196779, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -7239847093834615076, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+  - Name: female_princess
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 1219215832045583785, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -3009310647686501816, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 5985484917237778021, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -2048834419387597616, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 1219215832045583785, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 2642783907075787167, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -2093648228148635192, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 5239095398862061735, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -1196522319394688110, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 3845229355754546514, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -620645879798914258, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 6027150252482257999, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -6716223867268919409, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -3009310647686501816, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 2536353506325614523, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 7621170099552082717, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 6860363474775660580, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 3026812874801672348, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 5547360991904580903, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -4231122355779072321, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 8866815568124683580, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 8010698529717068216, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 5985484917237778021, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -1332045985004076179, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -8948524886063926963, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -1335463610789043693, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 2326207655673461353, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 3496479218688165734, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -178935810319656876, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -9065639706367276552, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -4758505434250818705, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -2048834419387597616, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 7517553197523146969, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -343446193611721921, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 6369732852745938809, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -2039870121478831971, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -2350950755258492402, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -2612556842884308087, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: -4817204857820539797, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 2032110244136780452, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+  - Name: female_shorthawk
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -5678837042028338597, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -752824108226982427, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -6666225255550759214, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -6260442836863230139, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -5678837042028338597, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -1244229945638814618, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -6372241154060443465, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 5762771122038814450, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -4006275013901201443, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -4496160755598663801, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -3243300984484919958, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -5329053086330935095, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -2323673660542074209, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -752824108226982427, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 7806904270663845731, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 7953591073183489583, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 8295032631624325169, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 7558418350510639612, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 2646171079570900796, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 8469418550356087356, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 7185934057949486033, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 894847126368926205, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -6666225255550759214, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 6713015273148644897, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 1716034496019274599, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -1181118028823203816, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 2043977038564082387, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 5420619312804749599, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -1850657767377026147, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -213275039649617326, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -7808527755550413470, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -6260442836863230139, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 2117891621454897712, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -6567417138966517174, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 8812108237915111734, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -6388497243289969632, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 3378045993212660411, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 4718120874453659957, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -4961928349289418900, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -3085936716072534134, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+  - Name: female_shortknot
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 2525360014712588887, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 1575117511907176553, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 488194616069454531, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -3728795423658005526, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 2525360014712588887, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -2005124585941798954, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -6826944496690532650, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -94311619580178535, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -2600275740465326313, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -435263766902947319, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 8727287941483212471, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -7613062927759057386, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 8889256012035696474, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 1575117511907176553, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -6010841848661257466, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -1385073600681030992, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -4725587639959523062, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 3498338402448279921, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 2308792009168009398, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -6023452832939613445, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 160586709769070036, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -5530733721687943461, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 488194616069454531, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 8298746411649758465, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -8302248216362855282, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 6895607972637001939, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -6959784451900321270, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -5424437903528670471, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 2310119696300404153, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 2866880351381653499, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 305041878776743748, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -3728795423658005526, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -8738662873818474006, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -8117334954412139315, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -2539914470524419737, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -3080152807232559525, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -5083548468425409762, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 3494634953151008740, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 9092346360722858219, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -8395191644130745531, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+  - Name: female_shoulderl
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -8136317552287590212, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -329395313305741770, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -3595574187799382050, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -3027711294675749012, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -8136317552287590212, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -2481432167344328266, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 3256235465181273610, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -3390421112945692474, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -4598173278079747061, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -4673842152694027332, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -638813172425395163, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -6433655764112769932, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 7196189098411194467, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -329395313305741770, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -5075180771216341986, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -4086241949771967281, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -8648903422471499080, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 5247819867783123959, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -5262529893483307173, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 5369937810222433802, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 2363159746269888142, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -6869138583367322749, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -3595574187799382050, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -1721530600429778140, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -3469345297973759980, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 4551797242881553282, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -8389883471439888998, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -2922930218425681501, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 5157968544359106097, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 553914232460060300, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -1456896485349725626, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -3027711294675749012, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 173448647449221576, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -768622593435500108, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -3470138789560697059, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 169035121152034393, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 2918223921363587312, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -7682068264909641977, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 4101258922633605992, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 4350930900762217297, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+  - Name: female_shoulderr
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -7867910230223435103, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -4978837322090575543, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 4305910570750188002, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 4261684202793567080, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -7867910230223435103, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 676321664201428325, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 8262050727137308004, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -6025956896626933770, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 916420510948162993, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 7094504726967429334, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -1553231042500008364, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 5043727731443219564, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 610012654880751807, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -4978837322090575543, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -661397472826902475, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -4840495918524487270, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 7239869270033895139, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 4417386540280720178, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 9016898847797029413, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 2757133578977355412, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -8356782310924024132, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -6446354191143424689, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 4305910570750188002, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 2240437424487150367, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -4511901066495093751, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 6654491202540117576, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -1602144937608755563, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -5827992737896190249, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -7384893268863583929, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 8940587624290723651, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -1353652816232471376, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 4261684202793567080, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -461636841342438651, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 963322163010446084, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -3323257015930777988, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -9038997326480878538, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -7523265191155575972, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -3981641872212189520, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 4710418526609765238, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -3975065162962651983, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+  - Name: female_swoop
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 3026431927270330551, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 4771413406545039834, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 3511331771971529278, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -3451444663640699672, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 3026431927270330551, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -1051186871025475637, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 6567356399245004815, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 5013733876065259339, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 1795529154047297209, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -4681874476049754609, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -2632428634983387730, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -6231193275367206303, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 2244674695442750973, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 4771413406545039834, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 30811135310417023, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 5462664581322630174, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -2250275842869467788, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -6091962218138084991, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -5996027623439203040, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -4925505300534703700, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -4520329693378658795, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 2585289128355127978, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 3511331771971529278, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 6691952019171792220, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -631136930754702084, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -4793495533679952962, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 243911521581713782, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 1347667877727474720, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -5293636252120978160, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 6518862888361072911, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -6722035125086640566, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -3451444663640699672, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 1887491406215999878, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -8729937091848396692, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -3535810150165951555, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -2446633873382939440, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 22181377145547592, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 5532900335322660308, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -7658490513344617475, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -7359887640044837692, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+  - Name: female_unkempt
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 7733989024236794596, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 4480759453478889888, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 4645021009037163815, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -3803756939209802175, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 7733989024236794596, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 7996472996798829594, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 2299631928528052075, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -7519685551514816275, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 3393595259517830516, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 7092141682845625748, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -7153787053942199862, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 1002398649130362677, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 1217013871305871935, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 4480759453478889888, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -5157504978039908672, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -1309873223332746945, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -6624282966197005647, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 389883500290583249, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 8197941002347146947, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 165408861371325805, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -207542197453859906, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 4797881617108225830, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 4645021009037163815, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -158784696015895033, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -4743546175223630278, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -2582142178107637248, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 2894389124764326449, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 1512719696916588492, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 941413050989562875, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -6906138661570173386, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -1575818063817176880, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -3803756939209802175, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 6919244519113687373, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 4364981563492674105, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 5596491256544210554, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 6976171686656232120, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -7864491795275510473, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -8579936775631922422, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 6507370231862489588, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 8967349820313837993, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+  - Name: female_xlong
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 7368976429287506197, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -7067763538061112440, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 96724253184307405, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 8851147182111303236, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 7368976429287506197, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -4357933647192202396, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 7602435879622504774, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -6228172598818715251, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -6999576882771753876, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -43633727258771230, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 8048117566123258892, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -4015204531654167223, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -1136823856508347807, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -7067763538061112440, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -6258584574542582636, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 4695132720098936859, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 3355360611571432052, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -4568751925708465046, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 8014959243813744922, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -4960427610059820334, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -4729300713539115004, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -3903486900738006483, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 96724253184307405, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -1084487051592271411, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -5759693332716766738, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 6898584530633597267, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 3879519515427198763, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -8383291373772318961, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -2210831218636195527, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -4276206926796407006, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -6737112536200475719, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 8851147182111303236, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 3896010990649898021, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 8108986225333003886, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -3599118540685565125, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -6918553063340939499, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -5933991473251049241, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -3101306518799366920, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 5412601788467384162, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 4173414451735868669, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+  - Name: female_xlongknot
+    layer: Hair
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 268314388709193989, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -1075732083921822550, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 6485732958035946492, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -4305519823629694953, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 268314388709193989, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -1343835274236478401, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 6392893633678650382, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 4603001669237061998, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 7006292873955299635, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -7297667817837158767, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 1280063835336468372, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -2168690773531536025, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 3385467320539767173, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -1075732083921822550, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -691916218268121984, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -8954531229963229925, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -8188453811685525209, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -2160208292784061568, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 2162468449440903008, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -1688466510895488115, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 4502211453371963419, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -6513795734011089852, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 6485732958035946492, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -339049835304086603, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 4760610837093713604, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 3830789052235397655, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -2400999376946072976, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 2443243701585332761, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 6605588502426846980, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -5752269557739952339, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -8010618062378196592, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -4305519823629694953, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 3352626955709995286, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -1710309330103620177, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 5685145642392255351, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 7032560739292031021, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 8190728536399873045, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 438091213256824626, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -4419759260571800955, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 2726164834940336405, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+  - Name: female_pants
+    layer: Legs
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: -7685142893718286715, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: 2073793922736591886, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: 2282673974491983000, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: 5169645754302438420, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: -7685142893718286715, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -4381304020042694871, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -1891382655104889429, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 3053556638212290874, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 7809893077471478976, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -2701538644906732896, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 3548693907481084083, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 7344627064816890053, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -833407145901350123, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: 2073793922736591886, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 100512580321431582, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -2227492764030073427, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -1529412474126780305, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 1838932240815593900, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -4523623938848048698, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -3017795693876720239, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -1400345341615897589, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 7998959565111251096, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: 2282673974491983000, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -2450741923889166484, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -6189596818752783631, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 297517896228940363, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 3023276565852298210, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 8281756514740632196, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 7746812212479027259, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 15554231453755281, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -145735657449096173, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: 5169645754302438420, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -5077949214656477317, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 5297111356368353927, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 3709975625574925758, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -2056665846793651242, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -9194835502252293632, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 639587507217654629, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 1610708943041170656, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -2804145938652762620, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+  - Name: female_skirt
+    layer: Legs
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 937468552179654634, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -4396069577157518835, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -6579715838782663339, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -3271478310638087183, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 937468552179654634, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -539210592649921593, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -3665027545957302791, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 2173164152922263144, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -7339966978927413506, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 3342070612105711472, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -4557654968555918124, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -249742051734820441, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -2159294936445882222, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -4396069577157518835, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 1650813103856249048, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 4904896449682294059, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 6084509476203448150, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 3687700105531048921, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -1822799873549125608, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 4487928449443331980, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -3101326115070521015, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 4726077206935483066, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -6579715838782663339, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -7817050591426576022, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 7525227877244886527, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -1680506865073533553, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 5749332354487324097, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -3905135906016893562, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -701207135595194828, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 7783558679976769582, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 1126537237774586358, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -3271478310638087183, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 3117007779699073147, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 7186639542848637005, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -8258359775868338004, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 4073725814007434742, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -3135785535210371347, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -1016048934305694698, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 7010847764035942540, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -1297790527752134490, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
