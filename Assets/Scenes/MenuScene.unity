@@ -38884,7 +38884,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Insert fucking title here. '
+  m_Text: Orphanage
 --- !u!222 &1680867014
 CanvasRenderer:
   m_ObjectHideFlags: 0
