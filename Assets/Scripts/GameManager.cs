@@ -112,8 +112,8 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void LoadMenu()
     {
-        StopAllCoroutines(); 
-
+        StopAllCoroutines();
+        MainCamera.transform.position = Vector2.zero; 
         World = null;
         if (Player != null)
             Destroy(Player); 
