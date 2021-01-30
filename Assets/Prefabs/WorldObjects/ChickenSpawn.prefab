@@ -45,4 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinDistance: 20
   MaxDistance: 10000
-  Lifetime: 1000
+  Lifetime: 5000

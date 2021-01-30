@@ -52,6 +52,8 @@ MonoBehaviour:
     Name: AnimationLayer
   - Prefab: {fileID: 3900913220654177840, guid: 1bf59588af91e7d4c871bbb02e5522fe, type: 3}
     Name: Chicken
+  - Prefab: {fileID: 7754136178326244512, guid: 7cf5f1131fb6c8c44aad12ba3ee876a2, type: 3}
+    Name: MainCamera
   World: {fileID: 0}
   animationLayers:
   - Name: female_black

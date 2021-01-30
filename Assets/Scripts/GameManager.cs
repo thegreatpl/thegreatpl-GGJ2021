@@ -30,8 +30,10 @@ public class GameManager : MonoBehaviour
     {
         GM = this; 
         MainCamera = Camera.main;
+        if (MainCamera == null)
+            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
+
         DontDestroyOnLoad(this); 
-        StartCoroutine(StartNewGame()); 
     }
 
     // Update is called once per frame
@@ -40,7 +42,15 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void NewGame()
+    {
+        StartCoroutine(StartNewGame()); 
+    }
 
+    /// <summary>
+    /// Starts a new game. 
+    /// </summary>
+    /// <returns></returns>
     IEnumerator StartNewGame()
     {
         //cleanup old game. 
@@ -48,7 +58,10 @@ public class GameManager : MonoBehaviour
             Destroy(Player.gameObject);
 
         if (MainCamera == null)
-            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>(); 
+            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
+        
+        StopCoroutine("ChickenTimer");
+        StopCoroutine("SpawnChickens");
 
         yield return null; 
 
@@ -114,7 +127,9 @@ public class GameManager : MonoBehaviour
     /// <returns></returns>
     public IEnumerator LoadScene(string scene)
     {
-        StopCoroutine("SpawnChickens"); 
+        StopCoroutine("SpawnChickens");
+        StopCoroutine("ChickenTimer");
+        yield return null; 
 
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
 
@@ -125,23 +140,50 @@ public class GameManager : MonoBehaviour
         Player.transform.position = World.SpawnPoint;
 
 
-        yield return StartCoroutine(SpawnChickens(10)); 
+        yield return StartCoroutine(ChickenTimer()); 
+    }
+
+    /// <summary>
+    /// Coroutine timer to time how long between chickens spawnings. Dependent on level. 
+    /// </summary>
+    /// <returns></returns>
+    IEnumerator ChickenTimer()
+    {
+        if (World == null)
+            yield break;
+
+
+        while (true)
+        {
+            var seconds = Random.Range(World.MinSecondsBetweenSpawns, World.MaxSecondsBetweenSpawns);
+            yield return new WaitForSeconds(seconds);
+            var chickens = Random.Range(World.MinChickesnPerSpawn, World.MaxChickensPerSpawn);
+            yield return StartCoroutine(SpawnChickens(chickens)); 
+        }
+
     }
 
 
-
-
+    /// <summary>
+    /// SPAWN THE CHICKENS!!!1
+    /// </summary>
+    /// <param name="chickenNumber"></param>
+    /// <returns></returns>
     IEnumerator SpawnChickens(int chickenNumber)
     {
         var chicken = Prefabs.FirstOrDefault(x => x.Name == "Chicken"); 
         var layerprefab = Prefabs.FirstOrDefault(x => x.Name == "AnimationLayer");
 
+        if (World == null || World.ChickenSpawners.Count == 0)
+            yield break; 
+
         var spawners = World.ChickenSpawners
             .Where(x => Vector3.Distance(x.transform.position, Player.transform.position) > x.MinDistance
                 && Vector3.Distance(x.transform.position, Player.transform.position) < x.MaxDistance).ToList();
 
+        //if none in range, use closest. 
         if (spawners.Count == 0)
-            spawners = World.ChickenSpawners; 
+            spawners = World.ChickenSpawners.OrderBy(x => Vector3.Distance(x.transform.position, Player.transform.position)).Take(3).ToList(); 
 
         for (int idx = 0; idx < chickenNumber; idx++)
         {
