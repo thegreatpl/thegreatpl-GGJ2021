@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TextTrigger : MonoBehaviour
 {
+    [TextArea]
     public string Text;
 
     public int Seconds; 
