@@ -26,13 +26,18 @@ public class GameManager : MonoBehaviour
     public GameObject Player;
 
 
-    public MusicPlayer MusicPlayer; 
+    public MusicPlayer MusicPlayer;
+
+
+
+    public UIScript UIGame; 
 
     // Start is called before the first frame update
     void Start()
     {
         GM = this;
-        MusicPlayer = GetComponentInChildren<MusicPlayer>(); 
+        MusicPlayer = GetComponentInChildren<MusicPlayer>();
+        UIGame = GetComponent<UIScript>(); 
         MainCamera = Camera.main;
         if (MainCamera == null)
             MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
@@ -66,6 +71,8 @@ public class GameManager : MonoBehaviour
         
         StopCoroutine("ChickenTimer");
         StopCoroutine("SpawnChickens");
+
+        UIGame.ShowInGameUI(); 
 
         yield return null; 
 
@@ -120,7 +127,8 @@ public class GameManager : MonoBehaviour
         MainCamera.transform.position =new Vector3(0, 0, MainCamera.transform.position.z); 
         World = null;
         if (Player != null)
-            Destroy(Player); 
+            Destroy(Player);
+        UIGame.HideInGameUI(); 
         SceneManager.LoadScene("MenuScene"); 
     }
 
