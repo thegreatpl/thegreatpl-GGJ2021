@@ -1,6 +1,7 @@
 using Assets.Scripts.Entities.Enums;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -39,6 +40,17 @@ public class PlayerController : MonoBehaviour
 
         if (moveX == 0 && moveY == 0)
             Movement.MovementDirection = Direction.None; 
+
+
+        if (Input.GetButtonDown("Jump") && GameManager.GM.Eggs > 0)
+        {
+            var eggbulletPrefab = GameManager.GM.Prefabs.FirstOrDefault(x => x.Name == "EggBullet");
+            var eggs = Instantiate(eggbulletPrefab.Prefab, transform.position, eggbulletPrefab.Prefab.transform.rotation).GetComponent<EggBulletScript>();
+            eggs.ThrownDirection = Movement.FacingDirection;
+
+            GameManager.GM.Eggs--;
+            GameManager.GM.Flags.Remove(GameManager.GM.Flags.FirstOrDefault(x => x.Contains("_Collected"))); 
+        }
 
     }
 

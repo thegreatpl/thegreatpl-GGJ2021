@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8990631921316998608}
   m_Layer: 0
   m_Name: Chicken
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,8 +108,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74f994c6d2e74a4e8756e6963321ba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsAlive: 1
   WalkingSpeed: 3
   AttackDistance: 1.5
+  Health: 1
+  Attack: 1
 --- !u!50 &4915419969294320582
 Rigidbody2D:
   serializedVersion: 4
