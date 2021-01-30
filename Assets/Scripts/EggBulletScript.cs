@@ -52,7 +52,7 @@ public class EggBulletScript : MonoBehaviour
             collision.gameObject.GetComponent<Attributes>().Health -= AttackDamage;
             Death(); 
         }
-       // else if (collision.gameObject.tag ) //TODO: 
+       // else if (collision.gameObject.tag ) //TODO: terrain collision. 
     }
 
     void Death()

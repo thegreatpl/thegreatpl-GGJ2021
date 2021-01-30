@@ -1337,6 +1337,14 @@ PrefabInstance:
       propertyPath: SceneName
       value: level_ME
       objectReference: {fileID: 0}
+    - target: {fileID: 4233821000457740884, guid: ddda5b16daf2c3b49a9229592a8dce99, type: 3}
+      propertyPath: EnableFlags.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233821000457740884, guid: ddda5b16daf2c3b49a9229592a8dce99, type: 3}
+      propertyPath: EnableFlags.Array.data[0]
+      value: test_egg_Collected
+      objectReference: {fileID: 0}
     - target: {fileID: 4233821000457740886, guid: ddda5b16daf2c3b49a9229592a8dce99, type: 3}
       propertyPath: m_RootOrder
       value: 1
