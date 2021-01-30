@@ -70,5 +70,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74f575d76bfbea34fb452c5cd8b0d148, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnActiveSound: {fileID: 8300000, guid: b10fee098929db64884898bb953972e0, type: 3}
   Text: 
   Seconds: 10

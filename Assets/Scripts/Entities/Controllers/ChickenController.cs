@@ -15,7 +15,7 @@ public class ChickenController : BaseAI
     {
         Movement = GetComponent<Movement>();
         GetComponent<Attributes>().OnDeath += Death;
-        StartCoroutine(DeathCounter(RemainingLife)); 
+        StartCoroutine(DeathCounter(Random.Range(RemainingLife -1, RemainingLife + 2))); 
     }
 
     // Update is called once per frame

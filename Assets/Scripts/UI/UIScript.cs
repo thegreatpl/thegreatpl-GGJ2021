@@ -41,7 +41,8 @@ public class UIScript : MonoBehaviour
     /// <param name="seconds"></param>
     public void DisplayText(string text, int seconds)
     {
-        StopCoroutine("TextTimer");
+        StopAllCoroutines(); 
+        //StopCoroutine("TextTimer");
 
         Text.text = text; 
 

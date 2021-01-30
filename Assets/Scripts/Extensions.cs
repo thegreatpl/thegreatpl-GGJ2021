@@ -20,7 +20,7 @@ public static partial class Extensions
         if (ts.Count() < 1)
             return default(T); 
 
-        return ts.ElementAt(UnityEngine.Random.Range(0, ts.Count()-1));
+        return ts.ElementAt(UnityEngine.Random.Range(0, ts.Count()));
     }
 
     /// <summary>
@@ -29,7 +29,7 @@ public static partial class Extensions
     /// <returns></returns>
     public static Direction RandomDiraction()
     {
-        return (Direction)UnityEngine.Random.Range(0, 4); 
+        return (Direction)UnityEngine.Random.Range(0, 5); 
     }
 }
 
