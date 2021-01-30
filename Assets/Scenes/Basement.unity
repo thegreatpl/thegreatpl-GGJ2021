@@ -400,11 +400,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2646341
+      value: 9.4
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5294152
+      value: 31.6
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.z
@@ -453,7 +453,11 @@ PrefabInstance:
         ...
 
 
-        Found: "I need to leave."'
+        Found: "I need to leave."
+
+
+        Return
+        to the lobby.'
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260085, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Name
