@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ChickenController : BaseAI
 {
+    public GameObject ExplosionPrefab; 
+
 
     public int RemainingLife; 
 
@@ -33,6 +35,8 @@ public class ChickenController : BaseAI
 
     void Death()
     {
+        Instantiate(ExplosionPrefab, transform.position, ExplosionPrefab.transform.rotation); 
+
         Destroy(gameObject); 
     }
     

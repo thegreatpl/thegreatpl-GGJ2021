@@ -143,4 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Movement: {fileID: 0}
+  ExplosionPrefab: {fileID: 3485406828701557715, guid: 4f79004530bdc3442a9a128337454f99, type: 3}
+  RemainingLife: 0
   Target: {fileID: 0}
