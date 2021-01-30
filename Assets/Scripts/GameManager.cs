@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class GameManager : MonoBehaviour
     {
         MainCamera = Camera.main;
         DontDestroyOnLoad(this); 
-        StartCoroutine(LoadScene()); 
+        StartCoroutine(StartNewGame()); 
     }
 
     // Update is called once per frame
@@ -35,54 +36,62 @@ public class GameManager : MonoBehaviour
     }
 
 
-    IEnumerator LoadScene()
+    IEnumerator StartNewGame()
     {
+        //cleanup old game. 
+        if (Player != null)
+            Destroy(Player.gameObject);
+
+        yield return null; 
+
         var entity = Prefabs.FirstOrDefault(x => x.Name == "Entity");
 
-        GameObject player;
-        player = GameObject.FindGameObjectWithTag("Player");
-        //ensure the player exists. 
-        if (player == null)
-        {
+        var player = Instantiate(entity.Prefab);
+        player.tag = "Player";
+        player.AddComponent<PlayerController>();
 
-            player = Instantiate(entity.Prefab);
-            player.tag = "Player";
-            player.AddComponent<PlayerController>();
+        MainCamera.transform.parent = player.transform;
 
-            MainCamera.transform.parent = player.transform;
+        yield return null;
 
-            yield return null;
-
-            var layerprefab = Prefabs.FirstOrDefault(x => x.Name == "AnimationLayer");
+        var layerprefab = Prefabs.FirstOrDefault(x => x.Name == "AnimationLayer");
 
 
 
-            var body = Instantiate(layerprefab.Prefab, player.transform);            
-            var legs = Instantiate(layerprefab.Prefab, player.transform);
-            var hair = Instantiate(layerprefab.Prefab, player.transform);
-            var chest = Instantiate(layerprefab.Prefab, player.transform);
+        var body = Instantiate(layerprefab.Prefab, player.transform);
+        var legs = Instantiate(layerprefab.Prefab, player.transform);
+        var hair = Instantiate(layerprefab.Prefab, player.transform);
+        var chest = Instantiate(layerprefab.Prefab, player.transform);
 
-            yield return null;
-            var bodyal = body.GetComponent<AnimationLayer>();
-            bodyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Body").GetRandom());
-            bodyal.Sprite.sortingOrder = 1;
-            var hairyal = hair.GetComponent<AnimationLayer>();
-            hairyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Hair").GetRandom());
-            hairyal.Sprite.sortingOrder = 2;
-            var chestyal = chest.GetComponent<AnimationLayer>(); 
-            chestyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Chest").GetRandom());
-            chestyal.Sprite.sortingOrder = 2;
-            var legsyal = legs.GetComponent<AnimationLayer>(); 
-            legsyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Legs").GetRandom());
-            legsyal.Sprite.sortingOrder = 2;  
-
-            DontDestroyOnLoad(player);
-            yield return null; 
-        }
+        yield return null;
+        var bodyal = body.GetComponent<AnimationLayer>();
+        bodyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Body").GetRandom());
+        bodyal.Sprite.sortingOrder = 1;
+        var hairyal = hair.GetComponent<AnimationLayer>();
+        hairyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Hair").GetRandom());
+        hairyal.Sprite.sortingOrder = 2;
+        var chestyal = chest.GetComponent<AnimationLayer>();
+        chestyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Chest").GetRandom());
+        chestyal.Sprite.sortingOrder = 2;
+        var legsyal = legs.GetComponent<AnimationLayer>();
+        legsyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Legs").GetRandom());
+        legsyal.Sprite.sortingOrder = 2;
         Player = player; 
+        DontDestroyOnLoad(player);
+        yield return null;
+
+        StartCoroutine(LoadScene("MainScene")); 
+    }
+
+    public IEnumerator LoadScene(string scene)
+    {
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+
+        yield return null; 
+
         World = FindObjectOfType<WorldScript>();
 
-        player.transform.position = World.SpawnPoint;
+        Player.transform.position = World.SpawnPoint;
 
 
         yield return StartCoroutine(SpawnChickens(10)); 
