@@ -28,19 +28,32 @@ public class GameManager : MonoBehaviour
 
     public MusicPlayer MusicPlayer;
 
+    /// <summary>
+    /// Player for sound effects. 
+    /// </summary>
+    public SoundEffectPlayerScript SoundEffectPlayerScript; 
 
 
-    public UIScript UIGame; 
+    public UIScript UIGame;
+
+    /// <summary>
+    /// The current number of eggs collected. 
+    /// </summary>
+    public int Eggs = 0; 
+
+    /// <summary>
+    /// A bunch of flags that get rest each game. 
+    /// </summary>
+    public List<string> Flags = new List<string>(); 
 
     // Start is called before the first frame update
     void Start()
     {
         GM = this;
-        MusicPlayer = GetComponentInChildren<MusicPlayer>();
+
         UIGame = GetComponent<UIScript>(); 
-        MainCamera = Camera.main;
-        if (MainCamera == null)
-            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
+        MainCamera = Camera.main;          
+        LoadCamera();            
 
         DontDestroyOnLoad(this); 
     }
@@ -49,6 +62,17 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+
+    void LoadCamera()
+    {
+        if (MainCamera == null)
+            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
+
+        MusicPlayer = GetComponentInChildren<MusicPlayer>();
+        SoundEffectPlayerScript = MainCamera.GetComponentInChildren<SoundEffectPlayerScript>(); 
+
     }
 
     public void NewGame()
@@ -67,12 +91,14 @@ public class GameManager : MonoBehaviour
             Destroy(Player.gameObject);
 
         if (MainCamera == null)
-            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
+            LoadCamera(); 
         
         StopCoroutine("ChickenTimer");
         StopCoroutine("SpawnChickens");
 
-        UIGame.ShowInGameUI(); 
+        UIGame.ShowInGameUI();
+        Flags.Clear();
+        Eggs = 0; 
 
         yield return null; 
 
@@ -124,10 +150,14 @@ public class GameManager : MonoBehaviour
     public void LoadMenu()
     {
         StopAllCoroutines();
+
+        LoadCamera(); 
         MainCamera.transform.position =new Vector3(0, 0, MainCamera.transform.position.z); 
         World = null;
         if (Player != null)
             Destroy(Player);
+        Flags.Clear();
+        Eggs = 0; 
         UIGame.HideInGameUI(); 
         SceneManager.LoadScene("MenuScene"); 
     }
