@@ -122,3 +122,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a76925792b4053a4bb5e1edd62abb628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EggName: 
+  EggFoundSound: {fileID: 8300000, guid: 98fb75c1ac00d53499708f8d6d2b4527, type: 3}

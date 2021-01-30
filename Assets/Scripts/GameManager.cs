@@ -28,6 +28,10 @@ public class GameManager : MonoBehaviour
 
     public MusicPlayer MusicPlayer;
 
+    /// <summary>
+    /// Player for sound effects. 
+    /// </summary>
+    public SoundEffectPlayerScript SoundEffectPlayerScript; 
 
 
     public UIScript UIGame;
@@ -46,11 +50,10 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         GM = this;
-        MusicPlayer = GetComponentInChildren<MusicPlayer>();
+
         UIGame = GetComponent<UIScript>(); 
-        MainCamera = Camera.main;
-        if (MainCamera == null)
-            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
+        MainCamera = Camera.main;          
+        LoadCamera();            
 
         DontDestroyOnLoad(this); 
     }
@@ -59,6 +62,17 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+
+    void LoadCamera()
+    {
+        if (MainCamera == null)
+            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
+
+        MusicPlayer = GetComponentInChildren<MusicPlayer>();
+        SoundEffectPlayerScript = MainCamera.GetComponentInChildren<SoundEffectPlayerScript>(); 
+
     }
 
     public void NewGame()
@@ -77,7 +91,7 @@ public class GameManager : MonoBehaviour
             Destroy(Player.gameObject);
 
         if (MainCamera == null)
-            MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
+            LoadCamera(); 
         
         StopCoroutine("ChickenTimer");
         StopCoroutine("SpawnChickens");
@@ -136,6 +150,8 @@ public class GameManager : MonoBehaviour
     public void LoadMenu()
     {
         StopAllCoroutines();
+
+        LoadCamera(); 
         MainCamera.transform.position =new Vector3(0, 0, MainCamera.transform.position.z); 
         World = null;
         if (Player != null)

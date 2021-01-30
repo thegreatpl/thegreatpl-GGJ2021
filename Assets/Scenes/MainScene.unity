@@ -2123,5 +2123,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: CollectableEgg
       objectReference: {fileID: 0}
+    - target: {fileID: 7384100137358335243, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
+      propertyPath: EggName
+      value: test_egg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee963fcc259b8d948948fcc94d2fb042, type: 3}
