@@ -1494,7 +1494,7 @@ PrefabInstance:
     - target: {fileID: 6503314254941981973, guid: f1ddab46d68598542a072243296b00c3, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 853c3c4cdaa925a498314021c38d826b, type: 3}
+      objectReference: {fileID: 8300000, guid: b3f8c0a9c61c7bc4e8e084361ef8ea9c, type: 3}
     - target: {fileID: 8228066099479852194, guid: f1ddab46d68598542a072243296b00c3, type: 3}
       propertyPath: m_Name
       value: AtmosphericNoiseTrigger (1)
