@@ -104,7 +104,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(player);
         yield return null;
 
-        StartCoroutine(LoadScene(StartScene)); 
+        yield return StartCoroutine(LoadSceneCo(StartScene)); 
     }
 
     /// <summary>
@@ -121,11 +121,22 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
+    /// Loads the given scene, if the scene exists. 
+    /// </summary>
+    /// <param name="scene"></param>
+    public void LoadScene(string scene)
+    {
+       
+
+        StartCoroutine(LoadSceneCo(scene)); 
+    }
+
+    /// <summary>
     /// Loads the given scene. 
     /// </summary>
     /// <param name="scene"></param>
     /// <returns></returns>
-    public IEnumerator LoadScene(string scene)
+    IEnumerator LoadSceneCo(string scene)
     {
         StopCoroutine("SpawnChickens");
         StopCoroutine("ChickenTimer");
