@@ -30,7 +30,17 @@ public class GameManager : MonoBehaviour
 
 
 
-    public UIScript UIGame; 
+    public UIScript UIGame;
+
+    /// <summary>
+    /// The current number of eggs collected. 
+    /// </summary>
+    public int Eggs = 0; 
+
+    /// <summary>
+    /// A bunch of flags that get rest each game. 
+    /// </summary>
+    public List<string> Flags = new List<string>(); 
 
     // Start is called before the first frame update
     void Start()
@@ -72,7 +82,9 @@ public class GameManager : MonoBehaviour
         StopCoroutine("ChickenTimer");
         StopCoroutine("SpawnChickens");
 
-        UIGame.ShowInGameUI(); 
+        UIGame.ShowInGameUI();
+        Flags.Clear();
+        Eggs = 0; 
 
         yield return null; 
 
@@ -128,6 +140,8 @@ public class GameManager : MonoBehaviour
         World = null;
         if (Player != null)
             Destroy(Player);
+        Flags.Clear();
+        Eggs = 0; 
         UIGame.HideInGameUI(); 
         SceneManager.LoadScene("MenuScene"); 
     }
