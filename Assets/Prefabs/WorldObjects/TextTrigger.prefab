@@ -70,8 +70,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74f575d76bfbea34fb452c5cd8b0d148, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: "\r\nText: A pile of papers sit on the lobby desk with the top of them torn
-    off, on them are also  several names with red crosses next to them.\r\n\r\n???
-    : \u201CHmm what are these? Names, why are they crossed out? Oh this one isn\u2019t\u2026
-    Found.\u201D\r\n"
+  OnActiveSound: {fileID: 8300000, guid: 50e0a25c93e8a284186a52e8c647dabe, type: 3}
+  Text: "\r"
   Seconds: 10
