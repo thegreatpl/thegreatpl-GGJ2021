@@ -5,17 +5,25 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Movement Movement; 
+
+    public Movement Movement;
+
+    public Attributes Attributes; 
 
     // Start is called before the first frame update
     void Start()
     {
-        Movement = GetComponent<Movement>(); 
+        Movement = GetComponent<Movement>();
+        Attributes = GetComponent<Attributes>();
+        Attributes.OnDeath += Death;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!Attributes.IsAlive)
+            return; 
+
         var moveX = Input.GetAxis("Horizontal");
         var moveY = Input.GetAxis("Vertical");
 
@@ -32,5 +40,26 @@ public class PlayerController : MonoBehaviour
         if (moveX == 0 && moveY == 0)
             Movement.MovementDirection = Direction.None; 
 
+    }
+
+
+    void Death()
+    {
+        if (!Attributes.IsAlive)
+            return;
+
+        Attributes.IsAlive = false;
+        Movement.AnimatorScript.SetAnimation("Death", true);
+        Movement.AnimatorScript.QueueAnimation("Dead"); 
+        StartCoroutine(DeathCoroutine()); 
+    }
+
+    IEnumerator DeathCoroutine()
+    {        
+        //wait for death animation to end, and suitable time while they comtemplate their choices. 
+        yield return new WaitForSeconds(20); 
+        GameManager.GM.MainCamera.transform.parent = null; 
+        Destroy(gameObject);
+        GameManager.GM.LoadMenu(); 
     }
 }

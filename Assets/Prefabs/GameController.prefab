@@ -27,7 +27,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.0432049, y: 0.30604592, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 719707329411905086}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43,11 +44,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57817028c95dc0144ae479545352e26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartScene: MainScene
+  MainCamera: {fileID: 0}
   Prefabs:
   - Prefab: {fileID: 1154899701159217344, guid: 4e0387e5c864c3a4bb1aa14e2eb9a7b1, type: 3}
     Name: Entity
   - Prefab: {fileID: 6829555793206104205, guid: 23e47280d73a4b840b03a9f6dfaa5fb8, type: 3}
     Name: AnimationLayer
+  - Prefab: {fileID: 3900913220654177840, guid: 1bf59588af91e7d4c871bbb02e5522fe, type: 3}
+    Name: Chicken
+  - Prefab: {fileID: 7754136178326244512, guid: 7cf5f1131fb6c8c44aad12ba3ee876a2, type: 3}
+    Name: MainCamera
   World: {fileID: 0}
   animationLayers:
   - Name: female_black
@@ -109,6 +116,13 @@ MonoBehaviour:
       - {fileID: 7721906880312288130, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
       - {fileID: -670320174149412818, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
       - {fileID: 8827099932915204866, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -1639062231105632576, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 5824627218094757499, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -8593443359659105148, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: 1426676944294040532, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
+      - {fileID: -135839776814081189, guid: dca83ed2f7021db47a889dd149de3d65, type: 3}
   - Name: female_dark
     layer: Body
     Animations:
@@ -168,6 +182,13 @@ MonoBehaviour:
       - {fileID: -3016412538050139729, guid: 3567a6aed8d676e499e3d68853cf62bd, type: 3}
       - {fileID: 4473150491901184692, guid: 3567a6aed8d676e499e3d68853cf62bd, type: 3}
       - {fileID: -1958221147717040548, guid: 3567a6aed8d676e499e3d68853cf62bd, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 7587517720380365187, guid: 3567a6aed8d676e499e3d68853cf62bd, type: 3}
+      - {fileID: -8732460065808354405, guid: 3567a6aed8d676e499e3d68853cf62bd, type: 3}
+      - {fileID: -6711292239386173852, guid: 3567a6aed8d676e499e3d68853cf62bd, type: 3}
+      - {fileID: -5022979000058611116, guid: 3567a6aed8d676e499e3d68853cf62bd, type: 3}
+      - {fileID: -2324332390564902533, guid: 3567a6aed8d676e499e3d68853cf62bd, type: 3}
   - Name: female_dark2
     layer: Body
     Animations:
@@ -227,6 +248,13 @@ MonoBehaviour:
       - {fileID: 8457593413706018597, guid: 5e5a108e2fc521f409c593fde194f754, type: 3}
       - {fileID: 1186765204354680303, guid: 5e5a108e2fc521f409c593fde194f754, type: 3}
       - {fileID: 7811423943979528860, guid: 5e5a108e2fc521f409c593fde194f754, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 2693566299460570123, guid: 5e5a108e2fc521f409c593fde194f754, type: 3}
+      - {fileID: -905281263663559797, guid: 5e5a108e2fc521f409c593fde194f754, type: 3}
+      - {fileID: -3486812957596592539, guid: 5e5a108e2fc521f409c593fde194f754, type: 3}
+      - {fileID: 7101792211732155611, guid: 5e5a108e2fc521f409c593fde194f754, type: 3}
+      - {fileID: 4868632153592806879, guid: 5e5a108e2fc521f409c593fde194f754, type: 3}
   - Name: female_light
     layer: Body
     Animations:
@@ -286,6 +314,13 @@ MonoBehaviour:
       - {fileID: -1680879157848899100, guid: 8c70a3975baba8b4f9e07192398cad03, type: 3}
       - {fileID: -3392532974191938045, guid: 8c70a3975baba8b4f9e07192398cad03, type: 3}
       - {fileID: 7892904484915909864, guid: 8c70a3975baba8b4f9e07192398cad03, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -1830475793883698697, guid: 8c70a3975baba8b4f9e07192398cad03, type: 3}
+      - {fileID: 1298612360634069610, guid: 8c70a3975baba8b4f9e07192398cad03, type: 3}
+      - {fileID: -6780876318476245270, guid: 8c70a3975baba8b4f9e07192398cad03, type: 3}
+      - {fileID: -4211197640752200218, guid: 8c70a3975baba8b4f9e07192398cad03, type: 3}
+      - {fileID: 6131027770844304523, guid: 8c70a3975baba8b4f9e07192398cad03, type: 3}
   - Name: female_tanned
     layer: Body
     Animations:
@@ -345,6 +380,13 @@ MonoBehaviour:
       - {fileID: 3683763744247252865, guid: 9e8b028bf57861140ad85aad8279c1eb, type: 3}
       - {fileID: 6101713504006146229, guid: 9e8b028bf57861140ad85aad8279c1eb, type: 3}
       - {fileID: 1192701040697896099, guid: 9e8b028bf57861140ad85aad8279c1eb, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -8129981702176908045, guid: 9e8b028bf57861140ad85aad8279c1eb, type: 3}
+      - {fileID: -7704175396675174737, guid: 9e8b028bf57861140ad85aad8279c1eb, type: 3}
+      - {fileID: -7816609222869514948, guid: 9e8b028bf57861140ad85aad8279c1eb, type: 3}
+      - {fileID: 3081786450026071891, guid: 9e8b028bf57861140ad85aad8279c1eb, type: 3}
+      - {fileID: 8078767677112655102, guid: 9e8b028bf57861140ad85aad8279c1eb, type: 3}
   - Name: female_tanned2
     layer: Body
     Animations:
@@ -404,6 +446,13 @@ MonoBehaviour:
       - {fileID: 4515487334303920351, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
       - {fileID: 2736720268661943452, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
       - {fileID: -5983926648453484427, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 2154571283124944789, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
+      - {fileID: -3957180119318350373, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
+      - {fileID: -5463673889355859398, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
+      - {fileID: -6976191772752747509, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
+      - {fileID: -1759192697842850972, guid: f481c6cf228d8f943a49d42de7014d08, type: 3}
   - Name: female_apron
     layer: Chest
     Animations:
@@ -463,6 +512,13 @@ MonoBehaviour:
       - {fileID: 3901676909007358512, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
       - {fileID: -7825497187183365373, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
       - {fileID: -8430632053420335095, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -3746173275320632857, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 8426549715123164848, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 986992111242426941, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 1888064923918079980, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
+      - {fileID: 8360977455442459286, guid: 2b27a265674d46b419123b3d389a8ed5, type: 3}
   - Name: female_corset
     layer: Chest
     Animations:
@@ -522,6 +578,13 @@ MonoBehaviour:
       - {fileID: -8601749314941552786, guid: b072a0c406802ba41930a92b70065bed, type: 3}
       - {fileID: 756718781290449196, guid: b072a0c406802ba41930a92b70065bed, type: 3}
       - {fileID: 1168856358288011746, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -702440940071833613, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -90076099162434296, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: 8869546200211233075, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -4114632980125972693, guid: b072a0c406802ba41930a92b70065bed, type: 3}
+      - {fileID: -4045168875771110380, guid: b072a0c406802ba41930a92b70065bed, type: 3}
   - Name: female_dress_w_sash_female
     layer: Chest
     Animations:
@@ -581,6 +644,13 @@ MonoBehaviour:
       - {fileID: 2381717128692779023, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
       - {fileID: 4927790687255685332, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
       - {fileID: -7758852865676029284, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -8820893794230177780, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -9155313434345143139, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: 2244581346022809960, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -7345096640327819972, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
+      - {fileID: -816045397097594921, guid: 6f3bd9e98bf6e764598a0cbc9c221b89, type: 3}
   - Name: female_leather
     layer: Chest
     Animations:
@@ -640,6 +710,13 @@ MonoBehaviour:
       - {fileID: -8026377507967591726, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
       - {fileID: 205716263553477861, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
       - {fileID: 6273190558473306489, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -5843329266685753498, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -6607254378252848145, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -8254726038627608516, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: -1441745512269849996, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
+      - {fileID: 7702661348597863543, guid: f86c85a58c66e9b4b82e78f4cfd95b9a, type: 3}
   - Name: female_shirt_sleeveless
     layer: Chest
     Animations:
@@ -699,6 +776,13 @@ MonoBehaviour:
       - {fileID: 1541166386272659297, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
       - {fileID: 6173878028637791389, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
       - {fileID: -134333242169949303, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 4127204988293963585, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 8787957883499066766, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: -7871064205754534731, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 5895409470581811806, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
+      - {fileID: 5313161053490137010, guid: 874d6adc90758ee479761cc685c314d5, type: 3}
   - Name: female_shirt_tanktop
     layer: Chest
     Animations:
@@ -758,6 +842,13 @@ MonoBehaviour:
       - {fileID: -4464075896761315266, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
       - {fileID: -714536700570313722, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
       - {fileID: 8967718903780882616, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -4181100777860036701, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 4868647666161411897, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -1532859765847581036, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: -8073494873962066836, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
+      - {fileID: 417330729055468183, guid: e827c4011f56b5e4c8b551691c8b9d06, type: 3}
   - Name: female_tightdress
     layer: Chest
     Animations:
@@ -817,6 +908,13 @@ MonoBehaviour:
       - {fileID: 4856007439559919342, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
       - {fileID: 3221028097761663273, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
       - {fileID: -8056742386343198922, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -3874161782734755546, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -52260177137965673, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: 8925491105155598589, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -8033100075177570520, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
+      - {fileID: -2391425376815025033, guid: 9cd96fff336bd704b9a0366c58e48500, type: 3}
   - Name: female_bangs
     layer: Hair
     Animations:
@@ -876,6 +974,13 @@ MonoBehaviour:
       - {fileID: 1669857038710810830, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
       - {fileID: 4727637393441554124, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
       - {fileID: 4554490712018230879, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -3164696215635592583, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 3577153526070637345, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 409052099292164416, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 2450575879489249500, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
+      - {fileID: 2409433447243775525, guid: 4fa865a8152359d4c947501d5ac4923c, type: 3}
   - Name: female_bangslong
     layer: Hair
     Animations:
@@ -935,6 +1040,13 @@ MonoBehaviour:
       - {fileID: -8001376063920209702, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
       - {fileID: 217992115506152212, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
       - {fileID: 130843867563155541, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 4985817041580373964, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 2125441654562976075, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 2388101429392662986, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: -2324039670911010279, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
+      - {fileID: 208606405798574738, guid: e7a5dac453b87654d894ddb0c10593d3, type: 3}
   - Name: female_bangslong2
     layer: Hair
     Animations:
@@ -994,6 +1106,13 @@ MonoBehaviour:
       - {fileID: 1982449743851452423, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
       - {fileID: -5483304981524978453, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
       - {fileID: -4981834644385184254, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -3874327687520961933, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 193007720207786076, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -8982568181276565335, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: 7704828927235791419, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
+      - {fileID: -7839456935732488965, guid: 76d998606abb7514c8f079b3b477d8ac, type: 3}
   - Name: female_bangsshort
     layer: Hair
     Animations:
@@ -1053,6 +1172,13 @@ MonoBehaviour:
       - {fileID: 347047012693916883, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
       - {fileID: 3778616546148206954, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
       - {fileID: -4713092684836494149, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -6834425294747070922, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -8481521236697711475, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: 3605877650436423939, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -6742715619579760036, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
+      - {fileID: -8330981360006860971, guid: d1a3bed4ae9d2c44fb65fadc84a6ebad, type: 3}
   - Name: female_bedhead
     layer: Hair
     Animations:
@@ -1112,6 +1238,13 @@ MonoBehaviour:
       - {fileID: 2163353100342339738, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
       - {fileID: 6164598985974899060, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
       - {fileID: 3773865805394801417, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 1017742537828798723, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 5943872442360799251, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: 3702948655026061414, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -8024615219168095534, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
+      - {fileID: -7466285318898501010, guid: 0ecd3b42867d3df4db9fc3aa19053d51, type: 3}
   - Name: female_bunches
     layer: Hair
     Animations:
@@ -1171,6 +1304,13 @@ MonoBehaviour:
       - {fileID: -2102362123839210728, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
       - {fileID: 8849180353409925714, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
       - {fileID: -275233790428019034, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -5104782748045076372, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -6863710119580299825, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: 215015029339487656, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -6488441702556843535, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
+      - {fileID: -6417159955535904255, guid: 81dca4925924ab84292b07a0d288bd79, type: 3}
   - Name: female_jewfro
     layer: Hair
     Animations:
@@ -1230,6 +1370,13 @@ MonoBehaviour:
       - {fileID: -5184436917700985728, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
       - {fileID: -1745042414153112865, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
       - {fileID: -1148462970471085699, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 8750462992095476001, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -2388575611318974288, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: -7543069169579495729, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 2856947098625731980, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
+      - {fileID: 6936877506770681401, guid: f0f1b23bee451234ea14be8c27160f38, type: 3}
   - Name: female_long
     layer: Hair
     Animations:
@@ -1289,6 +1436,13 @@ MonoBehaviour:
       - {fileID: 359223355968941062, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
       - {fileID: -5936855077765736225, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
       - {fileID: -666941875753862728, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 8790752422687365770, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 5954343786239101734, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 3078401443562122482, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: -8949735512210016729, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
+      - {fileID: 867568111864980491, guid: b81f2bc750ba5f741b873ddc411d81ee, type: 3}
   - Name: female_longhawk
     layer: Hair
     Animations:
@@ -1348,6 +1502,13 @@ MonoBehaviour:
       - {fileID: -868753627750295521, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
       - {fileID: -1505937945759702917, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
       - {fileID: 4213522203332717930, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 1070582194868395035, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 1222798785806768353, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 5501799273464391482, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: -1725888094149210120, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
+      - {fileID: 7792931909959512318, guid: 0ecada188d9fc3d4aa091f9de6814bd5, type: 3}
   - Name: female_longknot
     layer: Hair
     Animations:
@@ -1407,6 +1568,13 @@ MonoBehaviour:
       - {fileID: -5257645817569474341, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
       - {fileID: 3054691987313024672, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
       - {fileID: -104395514181195476, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -3498389522387961843, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -2031600900807521535, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 6314420697514708341, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: 1945731750656782287, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
+      - {fileID: -2965683181653317038, guid: a30de57a8f2e42e49af09e9ae14330fd, type: 3}
   - Name: female_loose
     layer: Hair
     Animations:
@@ -1466,6 +1634,13 @@ MonoBehaviour:
       - {fileID: -315533444275571441, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
       - {fileID: -1841768836199020014, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
       - {fileID: -3853524126609223677, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 3596432378203243569, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 8031267421677399317, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -5210235534294193885, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: -4662252815182591024, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
+      - {fileID: 863008254837484904, guid: b03ffb6d796b20e4491f3e2b9ef2a0b7, type: 3}
   - Name: female_messy1
     layer: Hair
     Animations:
@@ -1525,6 +1700,13 @@ MonoBehaviour:
       - {fileID: 1952469783315654475, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
       - {fileID: 1519033289451119727, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
       - {fileID: 6544317231336289682, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 7118842126223567877, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -7093569043878840540, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: 3826647147737904135, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -1938839150810726051, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
+      - {fileID: -1651738770336189064, guid: a67756974dd98484a8205cdfbd8f4595, type: 3}
   - Name: female_messy2
     layer: Hair
     Animations:
@@ -1584,6 +1766,13 @@ MonoBehaviour:
       - {fileID: 1008555937337420129, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
       - {fileID: -678187594165865458, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
       - {fileID: -2429889782059535634, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 7399566166985714424, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 1980209950676464380, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 1370887659312872735, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: -4776737127543505762, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
+      - {fileID: 8535008068426616497, guid: 8de30fca3cbcea6439427444311c30bf, type: 3}
   - Name: female_mohawk
     layer: Hair
     Animations:
@@ -1643,6 +1832,13 @@ MonoBehaviour:
       - {fileID: 7096618667946195149, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
       - {fileID: 2645981674116154583, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
       - {fileID: 1458928462023748647, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 5518633795608330915, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -3875474591821744239, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 2002962612683931734, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: 5657600375637115931, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
+      - {fileID: -8290606168783642708, guid: 3ac219663e815b345ae0cedbd0ccb4ca, type: 3}
   - Name: female_page
     layer: Hair
     Animations:
@@ -1702,6 +1898,13 @@ MonoBehaviour:
       - {fileID: -757200328023958219, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
       - {fileID: 9196173811991648637, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
       - {fileID: -4522708887634013283, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 1366073938658050529, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 312078012575031179, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -4958124961979958886, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: 758216917674032825, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
+      - {fileID: -1420314605788936460, guid: d43ac2c7b9d96da4682a121cc08356c9, type: 3}
   - Name: female_page2
     layer: Hair
     Animations:
@@ -1761,6 +1964,13 @@ MonoBehaviour:
       - {fileID: -8570684087843903677, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
       - {fileID: 3276487616789356686, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
       - {fileID: 5223886813506747149, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -3075508566062389134, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -6906605680734995747, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: -5135280962177182237, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 8508169023084136973, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
+      - {fileID: 2440632290768139216, guid: 6f745008ad999ac4cb10929be474ac8c, type: 3}
   - Name: female_parted
     layer: Hair
     Animations:
@@ -1820,6 +2030,13 @@ MonoBehaviour:
       - {fileID: 8112740897972198005, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
       - {fileID: -2339592144628172426, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
       - {fileID: 3951560882129780533, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -4848483251458140593, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -8390285416048693205, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 1994522279817105855, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: 8597949986557843098, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
+      - {fileID: -4500383856735047752, guid: 0ca40f92a86e33c4b8a5842ddb0b690c, type: 3}
   - Name: female_pixie
     layer: Hair
     Animations:
@@ -1879,6 +2096,13 @@ MonoBehaviour:
       - {fileID: 7493174202620479820, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
       - {fileID: -7723476271749458285, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
       - {fileID: -7459745119354728752, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 2138738533875370079, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 5373988234817596841, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: -3528512382269076965, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 1396570680712173906, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
+      - {fileID: 4578200219267266381, guid: 3f10c3b0aada03c4b96c30abe8fa39ca, type: 3}
   - Name: female_plain
     layer: Hair
     Animations:
@@ -1938,6 +2162,13 @@ MonoBehaviour:
       - {fileID: -817695645312485858, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
       - {fileID: 5333990917858017417, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
       - {fileID: 2431085476752231742, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 8658494410758397412, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -1120985680920190872, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: -1879742801411735328, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 5892192484630589939, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
+      - {fileID: 4356034962206866803, guid: c9712598d8b9e09428908cccfa026b4a, type: 3}
   - Name: female_ponytail
     layer: Hair
     Animations:
@@ -1997,6 +2228,13 @@ MonoBehaviour:
       - {fileID: -5574400430404041226, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
       - {fileID: -4854749521036056200, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
       - {fileID: -1168923139007590430, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 6738670827044510469, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 4617043185292453116, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 2514665959620245631, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: 2178409454474411146, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
+      - {fileID: -2199488143623681314, guid: 8dad37ae78d07db4491f8d0d2e31e004, type: 3}
   - Name: female_ponytail2
     layer: Hair
     Animations:
@@ -2056,6 +2294,13 @@ MonoBehaviour:
       - {fileID: -8531001443085914009, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
       - {fileID: 5210040791458196779, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
       - {fileID: -7239847093834615076, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -4674016332038762623, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 5148002422912885026, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -6464501765504369993, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: -4089361064883045875, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
+      - {fileID: 1070402707985032246, guid: b96a6e37febf0f04d88c27b218274e70, type: 3}
   - Name: female_princess
     layer: Hair
     Animations:
@@ -2115,6 +2360,13 @@ MonoBehaviour:
       - {fileID: -2612556842884308087, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
       - {fileID: -4817204857820539797, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
       - {fileID: 2032110244136780452, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 3654469040609921615, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 6886573115835781964, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 257625609425437653, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 7045305663575120485, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
+      - {fileID: 9222173691794714721, guid: 9260c056b7c276246bd4d9e6628acd24, type: 3}
   - Name: female_shorthawk
     layer: Hair
     Animations:
@@ -2174,6 +2426,13 @@ MonoBehaviour:
       - {fileID: 4718120874453659957, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
       - {fileID: -4961928349289418900, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
       - {fileID: -3085936716072534134, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -7364904574414498695, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 7212698030187594623, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -7636541382975559882, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: -6954861548237950661, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
+      - {fileID: 7479906397215860922, guid: dcd18e630f606c4439f24e8348522f91, type: 3}
   - Name: female_shortknot
     layer: Hair
     Animations:
@@ -2233,6 +2492,13 @@ MonoBehaviour:
       - {fileID: 3494634953151008740, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
       - {fileID: 9092346360722858219, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
       - {fileID: -8395191644130745531, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -5470403571322734672, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 3609564998720525784, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: -3255294116023244783, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 3277967597185895361, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
+      - {fileID: 1362751731675109712, guid: 0e77333e54a80414081db0a735cfcf95, type: 3}
   - Name: female_shoulderl
     layer: Hair
     Animations:
@@ -2292,6 +2558,13 @@ MonoBehaviour:
       - {fileID: -7682068264909641977, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
       - {fileID: 4101258922633605992, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
       - {fileID: 4350930900762217297, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 24078080587896674, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 5070755509199743926, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 6380689837432553561, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: -5790729405763117936, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
+      - {fileID: 3108157438187680398, guid: 2a7567e33d88143418a0c29793321ece, type: 3}
   - Name: female_shoulderr
     layer: Hair
     Animations:
@@ -2351,6 +2624,13 @@ MonoBehaviour:
       - {fileID: -3981641872212189520, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
       - {fileID: 4710418526609765238, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
       - {fileID: -3975065162962651983, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 4199731643220127826, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -7872263820931093871, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: -2263198084430238465, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 317823473990546649, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
+      - {fileID: 5871157751707604992, guid: 44bd0ac466eef8542acd944834ae95c8, type: 3}
   - Name: female_swoop
     layer: Hair
     Animations:
@@ -2410,6 +2690,13 @@ MonoBehaviour:
       - {fileID: 5532900335322660308, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
       - {fileID: -7658490513344617475, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
       - {fileID: -7359887640044837692, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -6065982328534412311, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 8468768000063427844, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: -3105451780140433466, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 1462146349163790081, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
+      - {fileID: 2101654714238603497, guid: 4c979ca62cff23440bd9d5a9fc57ba5e, type: 3}
   - Name: female_unkempt
     layer: Hair
     Animations:
@@ -2469,6 +2756,13 @@ MonoBehaviour:
       - {fileID: -8579936775631922422, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
       - {fileID: 6507370231862489588, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
       - {fileID: 8967349820313837993, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -1297566236521220766, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 2880759193384801959, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: 9084962678545695405, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -5487930791301167971, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
+      - {fileID: -750048321055975319, guid: c01900a7805febf4ca326eb7674922e2, type: 3}
   - Name: female_xlong
     layer: Hair
     Animations:
@@ -2528,6 +2822,13 @@ MonoBehaviour:
       - {fileID: -3101306518799366920, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
       - {fileID: 5412601788467384162, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
       - {fileID: 4173414451735868669, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 9050692913005833133, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: -7412581704449650359, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 1773734223736709854, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 4166058313341027391, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
+      - {fileID: 6346013053795647479, guid: 12b20bde2e4f82c4c89e542f28a6d543, type: 3}
   - Name: female_xlongknot
     layer: Hair
     Animations:
@@ -2587,6 +2888,13 @@ MonoBehaviour:
       - {fileID: 438091213256824626, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
       - {fileID: -4419759260571800955, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
       - {fileID: 2726164834940336405, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: 8220615600432028136, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -2093934612685293008, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 785237087704436448, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: 7919114149294058635, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
+      - {fileID: -965605660978367401, guid: 1b84f993e35a62d4f845805cbce27153, type: 3}
   - Name: female_pants
     layer: Legs
     Animations:
@@ -2646,6 +2954,13 @@ MonoBehaviour:
       - {fileID: 639587507217654629, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
       - {fileID: 1610708943041170656, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
       - {fileID: -2804145938652762620, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -3373600110637781639, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -4419189092305946380, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: -2785387589977344632, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 8475944184867938865, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
+      - {fileID: 8645116235477937034, guid: 7d2bdb88647d0fa4587e2228d2b0db5d, type: 3}
   - Name: female_skirt
     layer: Legs
     Animations:
@@ -2705,3 +3020,218 @@ MonoBehaviour:
       - {fileID: -1016048934305694698, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
       - {fileID: 7010847764035942540, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
       - {fileID: -1297790527752134490, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+    - Name: Death
+      Sprites:
+      - {fileID: -1063298046966091287, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -1879567633282313697, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: 5180157965615313479, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -2278739655653562888, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+      - {fileID: -1633252980847833348, guid: c241f286c8f042a4a97944ef3ab8123e, type: 3}
+  - Name: Chicken
+    layer: Chicken
+    Animations:
+    - Name: idleleft
+      Sprites:
+      - {fileID: 8613657268273329913, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: idleright
+      Sprites:
+      - {fileID: -5036017139838410224, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: idleup
+      Sprites:
+      - {fileID: -6481060874125336469, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: idledown
+      Sprites:
+      - {fileID: -8747096802321733386, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: walkleft
+      Sprites:
+      - {fileID: 8613657268273329913, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -6664663928148967335, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -1366058482103731389, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 9153089711493978583, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: walkright
+      Sprites:
+      - {fileID: -5036017139838410224, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -6782491219120640500, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -1427576491377810839, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 8485501925131045858, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: walkup
+      Sprites:
+      - {fileID: -6481060874125336469, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 1097091891694411030, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -7424430767614026342, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -8697037474915094534, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: walkdown
+      Sprites:
+      - {fileID: -8747096802321733386, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: -4664883425211043291, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 67203780413127644, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+      - {fileID: 1658345341792607301, guid: f3c5cbf65aebff643a5102871e753ee8, type: 3}
+    - Name: attackup
+      Sprites:
+      - {fileID: -8434595112209358715, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 8041245115775787869, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 8041245115775787869, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 8041245115775787869, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: -8434595112209358715, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+    - Name: attackleft
+      Sprites:
+      - {fileID: -4363176328497464067, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4656930459555588648, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4656930459555588648, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4656930459555588648, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: -4363176328497464067, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+    - Name: attackdown
+      Sprites:
+      - {fileID: -3448452170273209441, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 7283690539203732531, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 7283690539203732531, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 7283690539203732531, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: -3448452170273209441, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+    - Name: attackright
+      Sprites:
+      - {fileID: 2235828382937205190, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4801087460018442890, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4801087460018442890, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 4801087460018442890, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+      - {fileID: 2235828382937205190, guid: 02c27b9cf42651743b3cd85b1fccbecd, type: 3}
+  Player: {fileID: 0}
+--- !u!1 &5550514300783416885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719707329411905086}
+  - component: {fileID: 8547644803071443958}
+  - component: {fileID: 5592048599076836724}
+  m_Layer: 0
+  m_Name: MusicPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &719707329411905086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5550514300783416885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1083544987330986467}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &8547644803071443958
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5550514300783416885}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &5592048599076836724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5550514300783416885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a112e72c69b6ba4b9c274bbb2c8f504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
