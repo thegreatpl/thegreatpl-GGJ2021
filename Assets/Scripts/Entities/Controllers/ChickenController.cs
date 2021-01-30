@@ -14,6 +14,7 @@ public class ChickenController : BaseAI
     void Start() 
     {
         Movement = GetComponent<Movement>();
+        GetComponent<Attributes>().OnDeath += Death; 
     }
 
     // Update is called once per frame

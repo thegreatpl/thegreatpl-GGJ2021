@@ -51,7 +51,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!AnimatorScript.RunningQueued) //only move if there is not an attack or hit animation taking place. 
+        if (!AnimatorScript.RunningQueued && Attributes.IsAlive) //only move if there is not an attack or hit animation taking place. 
         {
             switch (_movementDirection)
             {

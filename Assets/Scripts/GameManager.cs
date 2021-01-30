@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager GM; 
+
+
     public string StartScene = "MainScene"; 
 
     public Camera MainCamera; 
@@ -25,6 +28,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GM = this; 
         MainCamera = Camera.main;
         DontDestroyOnLoad(this); 
         StartCoroutine(StartNewGame()); 
@@ -55,6 +59,9 @@ public class GameManager : MonoBehaviour
         player.AddComponent<PlayerController>();
 
         MainCamera.transform.parent = player.transform;
+        MainCamera.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, MainCamera.transform.position.z);
+       
+
 
         yield return null;
 
@@ -87,8 +94,28 @@ public class GameManager : MonoBehaviour
         StartCoroutine(LoadScene(StartScene)); 
     }
 
+    /// <summary>
+    /// Loads the main menu. 
+    /// </summary>
+    public void LoadMenu()
+    {
+        StopAllCoroutines(); 
+
+        World = null;
+        if (Player != null)
+            Destroy(Player); 
+        SceneManager.LoadScene("MenuScene"); 
+    }
+
+    /// <summary>
+    /// Loads the given scene. 
+    /// </summary>
+    /// <param name="scene"></param>
+    /// <returns></returns>
     public IEnumerator LoadScene(string scene)
     {
+        StopCoroutine("SpawnChickens"); 
+
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
 
         yield return null; 

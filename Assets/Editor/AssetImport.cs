@@ -103,6 +103,18 @@ public class AssetImporter : MonoBehaviour
             Sprites = GetWalkAnimation(sprites, name, 78)
         });
 
+
+        animationObjs.Add(new AnimationObj()
+        {
+            Name = "Death",
+            Sprites = GetWalkAnimation(sprites, name, 172, 5)
+        });
+        animationObjs.Add(new AnimationObj()
+        {
+            Name = "Dead",
+            Sprites = new Sprite[] { sprites.FirstOrDefault(x => x.name == $"{name}_177") }
+        });
+
         return animationObjs;
     }
 
