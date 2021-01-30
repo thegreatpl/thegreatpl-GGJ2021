@@ -63,16 +63,16 @@ public class GameManager : MonoBehaviour
             yield return null;
             var bodyal = body.GetComponent<AnimationLayer>();
             bodyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Body").GetRandom());
-            bodyal.Sprite.sortingOrder = 0;
+            bodyal.Sprite.sortingOrder = 1;
             var hairyal = hair.GetComponent<AnimationLayer>();
             hairyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Hair").GetRandom());
-            hairyal.Sprite.sortingOrder = 1;
+            hairyal.Sprite.sortingOrder = 2;
             var chestyal = chest.GetComponent<AnimationLayer>(); 
             chestyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Chest").GetRandom());
-            chestyal.Sprite.sortingOrder = 1;
+            chestyal.Sprite.sortingOrder = 2;
             var legsyal = legs.GetComponent<AnimationLayer>(); 
             legsyal.ApplyAnimations(animationLayers.Where(x => x.layer == "Legs").GetRandom());
-            legsyal.Sprite.sortingOrder = 1;  
+            legsyal.Sprite.sortingOrder = 2;  
 
             DontDestroyOnLoad(player); 
         }
