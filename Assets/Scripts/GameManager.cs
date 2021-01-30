@@ -96,15 +96,25 @@ public class GameManager : MonoBehaviour
         var chicken = Prefabs.FirstOrDefault(x => x.Name == "Chicken"); 
         var layerprefab = Prefabs.FirstOrDefault(x => x.Name == "AnimationLayer");
 
+        var spawners = World.ChickenSpawners
+            .Where(x => Vector3.Distance(x.transform.position, Player.transform.position) > x.MinDistance
+                && Vector3.Distance(x.transform.position, Player.transform.position) < x.MaxDistance).ToList();
+
+        if (spawners.Count == 0)
+            spawners = World.ChickenSpawners; 
+
         for (int idx = 0; idx < chickenNumber; idx++)
         {
-            var chick = Instantiate(chicken.Prefab);
+            var spawner = spawners.GetRandom();
+            var chick = Instantiate(chicken.Prefab, spawner.transform.position, chicken.Prefab.transform.rotation);
 
             var layer = Instantiate(layerprefab.Prefab, chick.transform);
             layer.GetComponent<AnimationLayer>().ApplyAnimations(animationLayers.Where(x => x.layer == "Chicken").GetRandom());
             layer.GetComponent<SpriteRenderer>().color = Color.red;
 
-            chick.GetComponent<ChickenController>().Target = Player; 
+            var cont = chick.GetComponent<ChickenController>();
+            cont.Target = Player;
+            cont.RemainingLife = spawner.Lifetime; 
         }
 
         yield return null; 

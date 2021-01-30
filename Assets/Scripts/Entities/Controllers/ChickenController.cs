@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChickenController : BaseAI
 {
 
-   
+    public int RemainingLife; 
 
     public GameObject Target; 
     // Start is called before the first frame update
@@ -25,8 +25,15 @@ public class ChickenController : BaseAI
         {
             DumbMoveToPostion(Target.transform.position); 
         }
+
+        RemainingLife--;
+        if (RemainingLife < 0)
+            Death();
     }
 
-
+    void Death()
+    {
+        Destroy(gameObject); 
+    }
     
 }
