@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57817028c95dc0144ae479545352e26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartScene: MainScene
+  StartScene: Lobby
   MainCamera: {fileID: 0}
   Prefabs:
   - Prefab: {fileID: 1154899701159217344, guid: 4e0387e5c864c3a4bb1aa14e2eb9a7b1, type: 3}
