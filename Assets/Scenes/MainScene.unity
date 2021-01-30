@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3843005672867238486, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: Lifetime
-      value: 1000
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1554511868399372738, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: m_RootOrder
@@ -1209,7 +1209,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3843005672867238486, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: Lifetime
-      value: 1000
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1554511868399372738, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: m_RootOrder
@@ -1380,7 +1380,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3843005672867238486, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: Lifetime
-      value: 5000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1554511868399372738, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: m_RootOrder
@@ -1496,6 +1496,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3843005672867238486, guid: 184b66e336be820428ee14443829ff9e, type: 3}
+      propertyPath: Lifetime
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1554511868399372738, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: m_RootOrder
       value: 2

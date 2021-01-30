@@ -14,7 +14,8 @@ public class ChickenController : BaseAI
     void Start() 
     {
         Movement = GetComponent<Movement>();
-        GetComponent<Attributes>().OnDeath += Death; 
+        GetComponent<Attributes>().OnDeath += Death;
+        StartCoroutine(DeathCounter(RemainingLife)); 
     }
 
     // Update is called once per frame
@@ -30,10 +31,6 @@ public class ChickenController : BaseAI
         }
 
         Attack(); 
-
-        RemainingLife--;
-        if (RemainingLife < 0)
-            Death();
     }
 
 
@@ -73,6 +70,12 @@ public class ChickenController : BaseAI
         Instantiate(ExplosionPrefab, transform.position, ExplosionPrefab.transform.rotation); 
 
         Destroy(gameObject); 
+    }
+
+    IEnumerator DeathCounter(int seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        Death(); 
     }
 
 }
