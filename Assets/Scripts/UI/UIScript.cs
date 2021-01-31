@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -78,7 +79,16 @@ public class UIScript : MonoBehaviour
     public void ShowVictoryScreen()
     {
         GameOverImage.gameObject.SetActive(true);
-        GameOverScreen.text = "Be found forever";
+        GameOverScreen.text 
+            = $"Found: \"I - I remember now. This voice... Lost it's you isn't it?\" {Environment.NewLine}{Environment.NewLine} "
+
+ + $"Lost: \"Yes, you finally remember.\" {Environment.NewLine}{Environment.NewLine}"
+
+ + $"Found: \"I also remember-\" {Environment.NewLine}{Environment.NewLine}" 
+
++ $"Lost: \"Come, let's go to everyone.\" {Environment.NewLine}{Environment.NewLine}"
+
++ $"Found: \"Yeah let's.\"";
         GameOverScreen.color = Color.black; 
         GameOverImage.color = new Color(1, 1, 1, 0);
         StartCoroutine(FadeIn());
