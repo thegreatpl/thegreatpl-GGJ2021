@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public delegate void OnDeath(); 
+public delegate void OnDeath();
+
+public delegate void OnDamage(); 
 
 public class Attributes : MonoBehaviour
 {
@@ -22,7 +24,10 @@ public class Attributes : MonoBehaviour
     public float Attack = 1;
 
 
-    public OnDeath OnDeath; 
+    public OnDeath OnDeath;
+
+
+    public OnDamage OnDamage; 
     
 
     // Start is called before the first frame update
@@ -35,7 +40,7 @@ public class Attributes : MonoBehaviour
     void Update()
     {
         if (Health < 0)
-            OnDeath.Invoke(); 
+            OnDeath?.Invoke(); 
     }
 
     /// <summary>
@@ -44,6 +49,8 @@ public class Attributes : MonoBehaviour
     /// <param name="amount"></param>
     public void TakeDamage(float amount)
     {
-        Health -= amount; 
+        Health -= amount;
+
+        OnDamage?.Invoke(); 
     }
 }

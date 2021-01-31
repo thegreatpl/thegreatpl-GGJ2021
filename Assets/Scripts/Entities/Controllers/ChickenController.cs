@@ -15,7 +15,9 @@ public class ChickenController : BaseAI
     void Start() 
     {
         Movement = GetComponent<Movement>();
-        GetComponent<Attributes>().OnDeath += Death;
+        var attributes = GetComponent<Attributes>();
+        attributes.OnDeath += Death;
+        attributes.OnDamage += () => { GameManager.GM.SoundEffectPlayerScript.PlayAudioViaTag("bossdamage"); };
         AudioSource = GetComponent<AudioSource>(); 
         StartCoroutine(DeathCounter(Random.Range(RemainingLife -1, RemainingLife + 2))); 
     }
