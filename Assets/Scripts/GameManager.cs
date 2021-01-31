@@ -155,10 +155,14 @@ public class GameManager : MonoBehaviour
         MainCamera.transform.position =new Vector3(0, 0, MainCamera.transform.position.z); 
         World = null;
         if (Player != null)
+        {
+            MainCamera.transform.parent = null; 
             Destroy(Player);
+        }
         Flags.Clear();
         Eggs = 0; 
         UIGame.HideInGameUI();
+        UIGame.HideEndgameScreen(); 
         MusicPlayer.LoadMusicTag("menu"); 
         SceneManager.LoadScene("MenuScene"); 
     }

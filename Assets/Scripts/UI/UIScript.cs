@@ -9,7 +9,13 @@ public class UIScript : MonoBehaviour
     public Canvas Canvas; 
 
 
-    public Text Text; 
+    public Text Text;
+
+
+
+    public Text GameOverScreen;
+
+    public Image GameOverImage; 
     // Start is called before the first frame update
     void Start()
     {
@@ -54,5 +60,44 @@ public class UIScript : MonoBehaviour
     {
         yield return new WaitForSeconds(seconds);
         Text.text = ""; 
+    }
+
+
+
+    public void ShowDeath()
+    {
+        GameOverImage.gameObject.SetActive(true); 
+
+        GameOverScreen.text = "Be Lost Forever...";
+        GameOverScreen.color = Color.red; 
+        GameOverImage.color = new Color(0, 0, 0, 0);
+        StartCoroutine(FadeIn()); 
+    }
+
+
+    public void ShowVictoryScreen()
+    {
+        GameOverImage.gameObject.SetActive(true);
+        GameOverScreen.text = "Be found forever";
+        GameOverScreen.color = Color.black; 
+        GameOverImage.color = new Color(1, 1, 1, 0);
+        StartCoroutine(FadeIn());
+    }
+
+    IEnumerator FadeIn()
+    {
+        yield return new WaitForSeconds(2); 
+        while (GameOverImage.color.a < 1)
+        {
+            GameOverImage.color 
+                = new Color(GameOverImage.color.r, GameOverImage.color.g, GameOverImage.color.b, GameOverImage.color.a + 0.01f);
+            yield return new WaitForSeconds(0.1f); 
+        }
+    }
+
+    public void HideEndgameScreen()
+    {
+        GameOverImage.gameObject.SetActive(false);
+
     }
 }

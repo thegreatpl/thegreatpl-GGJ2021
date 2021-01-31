@@ -67,7 +67,8 @@ public class PlayerController : MonoBehaviour
     }
 
     IEnumerator DeathCoroutine()
-    {        
+    {
+        GameManager.GM.UIGame.ShowDeath(); 
         //wait for death animation to end, and suitable time while they comtemplate their choices. 
         yield return new WaitForSeconds(20); 
         GameManager.GM.MainCamera.transform.parent = null; 

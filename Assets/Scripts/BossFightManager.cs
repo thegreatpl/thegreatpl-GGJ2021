@@ -34,6 +34,16 @@ public class BossFightManager : MonoBehaviour
 
         var cont = chick.GetComponent<ChickenController>();
         cont.Target = GameManager.GM.Player.GetComponent<Attributes>();
-        cont.RemainingLife = 100000; 
+        cont.RemainingLife = 100000;
+
+        chick.GetComponent<Attributes>().OnDeath += () => { StartCoroutine(EndGame()); }; 
+    }
+
+
+    IEnumerator EndGame()
+    {
+        GameManager.GM.UIGame.ShowVictoryScreen();
+        yield return new WaitForSeconds(20);
+        GameManager.GM.LoadMenu(); 
     }
 }
