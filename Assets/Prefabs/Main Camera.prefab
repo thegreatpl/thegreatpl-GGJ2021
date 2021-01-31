@@ -198,6 +198,7 @@ MonoBehaviour:
   - Name: chicken
     Tags:
     - menu
+    - bedroom
     AudioClip: {fileID: 8300000, guid: 101cfce992ebce341879013b88225f63, type: 3}
   - Name: Orphan Bedroom
     Tags:
