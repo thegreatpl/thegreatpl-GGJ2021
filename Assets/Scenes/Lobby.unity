@@ -670,11 +670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2646341
+      value: -9.35
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5294152
+      value: 3.44
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.z
@@ -711,6 +711,14 @@ PrefabInstance:
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Text
       value: 'Found: It''s locked.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Size.y
+      value: 3.01989
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.009945
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260085, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Name
@@ -932,11 +940,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2646341
+      value: -15.51
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5294152
+      value: -48.61
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.z
