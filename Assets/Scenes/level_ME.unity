@@ -221,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Text
-      value: 'Found: "I-I remember now. This voice... Lost it''s you isn''t it?"
+      value: 'Found: "I-I remember now. This voice...  Lost it''s you isn''t it?"
 
 
         Lost:
@@ -239,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Seconds
-      value: 35
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Enabled
@@ -247,15 +247,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Size.x
-      value: 5.6361065
+      value: 17.640932
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Size.y
+      value: 9.706766
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Offset.x
-      value: -0.42576504
+      value: 0.6199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Offset.y
+      value: -4.353383
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260085, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Name
       value: Final chat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260085, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}

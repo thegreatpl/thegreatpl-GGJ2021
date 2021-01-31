@@ -453,7 +453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -97.79
+      value: -96.54
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.z
@@ -572,13 +572,13 @@ PrefabInstance:
       value: "A pile of papers sit on the lobby desk with the top of them torn off,
         on them are also several names with red crosses next to them.\r\n\r\n???
         : \u201CHmm what are these? Names, why are they crossed out? Oh this one
-        isn\u2019t\u2026 Found.\u201D\n \t\t\t\t...\n\nFound: \u201COh. That\u2019s
-        right, my name\u2019s Found. I remember. But, why is my name on these papers?
-        What are these?.\u201D\r\n\r\n\r\n"
+        isn\u2019t\u2026 Found.\u201D\n...\n\nFound: \u201COh. That\u2019s right,
+        my name\u2019s Found. I remember. But, why is my name on these papers? What
+        are these?.\u201D\r"
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Seconds
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260085, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Name
@@ -643,6 +643,10 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: Seconds
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Size.x
       value: 1.6462917
@@ -670,7 +674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.35
+      value: -9.97
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_LocalPosition.y
@@ -712,6 +716,10 @@ PrefabInstance:
       propertyPath: Text
       value: 'Found: It''s locked.'
       objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: Seconds
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Size.y
       value: 3.01989
@@ -743,11 +751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1554511868399372738, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2479315
+      value: -4.02
       objectReference: {fileID: 0}
     - target: {fileID: 1554511868399372738, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -38.91393
+      value: -33.84
       objectReference: {fileID: 0}
     - target: {fileID: 1554511868399372738, guid: 184b66e336be820428ee14443829ff9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -915,7 +923,7 @@ PrefabInstance:
       propertyPath: Text
       value: "Voice: \u201C \u2026hear me?\u201D\r\n\r\n???: Who\u2019s there?!\r\n\r\nVoice:
         \u201CRemember\u2026\u201D\r\n\r\n???: Remember? Do you know who I am?\r\n\r\nVoice:
-        \u201CMemories lost\u2026  lobby\u2026 name\u2026desk.\u201D\r\n"
+        \u201CMemories lost\u2026  lobby\u2026  name\u2026 desk.\u201D\r"
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Seconds
@@ -983,6 +991,10 @@ PrefabInstance:
       value: 'To Basement
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: Seconds
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260085, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Name
@@ -13396,7 +13408,7 @@ MonoBehaviour:
   - {fileID: 142731197}
   SpawnPoint: {x: 0, y: 0}
   MinSecondsBetweenSpawns: 10
-  MaxSecondsBetweenSpawns: 30
+  MaxSecondsBetweenSpawns: 25
   MinChickesnPerSpawn: 1
   MaxChickensPerSpawn: 5
   MusicTag: lobby
