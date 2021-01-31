@@ -13321,6 +13321,7 @@ MonoBehaviour:
   MaxSecondsBetweenSpawns: 30
   MinChickesnPerSpawn: 1
   MaxChickensPerSpawn: 5
+  MusicTag: lobby
 --- !u!1 &7852952055744508933
 GameObject:
   m_ObjectHideFlags: 0

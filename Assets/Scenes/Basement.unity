@@ -549,6 +549,7 @@ MonoBehaviour:
   MaxSecondsBetweenSpawns: 30
   MinChickesnPerSpawn: 10
   MaxChickensPerSpawn: 30
+  MusicTag: basement
 --- !u!156049354 &5804597713001292841
 Grid:
   m_ObjectHideFlags: 0

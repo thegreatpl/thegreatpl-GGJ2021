@@ -53,8 +53,8 @@ public class GameManager : MonoBehaviour
 
         UIGame = GetComponent<UIScript>(); 
         MainCamera = Camera.main;          
-        LoadCamera();            
-
+        LoadCamera();
+        MusicPlayer.LoadMusicTag("menu"); 
         DontDestroyOnLoad(this); 
     }
 
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
         if (MainCamera == null)
             MainCamera = Instantiate(Prefabs.FirstOrDefault(x => x.Name == "MainCamera").Prefab).GetComponent<Camera>();
 
-        MusicPlayer = GetComponentInChildren<MusicPlayer>();
+        MusicPlayer = MainCamera.GetComponentInChildren<MusicPlayer>();
         SoundEffectPlayerScript = MainCamera.GetComponentInChildren<SoundEffectPlayerScript>(); 
 
     }
@@ -158,7 +158,8 @@ public class GameManager : MonoBehaviour
             Destroy(Player);
         Flags.Clear();
         Eggs = 0; 
-        UIGame.HideInGameUI(); 
+        UIGame.HideInGameUI();
+        MusicPlayer.LoadMusicTag("menu"); 
         SceneManager.LoadScene("MenuScene"); 
     }
 
@@ -192,6 +193,7 @@ public class GameManager : MonoBehaviour
 
         Player.transform.position = World.SpawnPoint;
 
+        MusicPlayer.LoadMusicTag(World.MusicTag); 
 
         yield return StartCoroutine(ChickenTimer()); 
     }
