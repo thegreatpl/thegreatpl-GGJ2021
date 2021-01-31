@@ -48,7 +48,7 @@ public class BossFightManager : MonoBehaviour
         {
 
             yield return null;
-            if (Input.GetKeyDown("Jump") || Input.GetKeyDown("Cancel"))
+            if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Cancel"))
                 break; 
 
         } while (true); 
