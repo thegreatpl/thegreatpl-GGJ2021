@@ -402,17 +402,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Text
-      value: "Voice: \u201CFound\u2026 list...\u201D\r\n\r\nFound: \u201CList? What
-        list? I don\u2019t understand.\u201D\r\n\nFound: \u201CThey\u2019re not responding.
-        What should I do? Hmm what\u2019s this? A diary?\u201D\n\nThe children have
+      value: "Found: \u201CHmm what\u2019s this? A diary?\u201D\n\nThe children have
         been growing well, some are already well within their teenage years. They\u2019ll
-        be ready before the end of the year. Madame \nBernstein has readied her and
-        has kept the list hidden well in the library.\r\n\nFound: \u201CThe library.
-        Where is that?.\u201D\r\n\nVoice: \u201CLibrary, upstairs.\u201D"
+        be ready before the end of the year. Madame Bernstein has kept the list hidden
+        well in the library.\r\n\nVoice: \u201CLibrary, upstairs.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Seconds
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Size.x
@@ -922,8 +919,8 @@ PrefabInstance:
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Text
       value: "Voice: \u201C \u2026hear me?\u201D\r\n\r\n???: Who\u2019s there?!\r\n\r\nVoice:
-        \u201CRemember\u2026\u201D\r\n\r\n???: Remember? Do you know who I am?\r\n\r\nVoice:
-        \u201CMemories lost\u2026  lobby\u2026  name\u2026 desk.\u201D\r"
+        \u201CRemember\u2026 Memories lost\u2026  lobby\u2026  name\u2026 desk.\u201D\r\r\n\r\n???:
+        Remember? Do you know who I am?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Seconds
@@ -995,6 +992,22 @@ PrefabInstance:
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Seconds
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Size.x
+      value: 2.0375566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9669037
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.5187783
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.38570786
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260085, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: m_Name
