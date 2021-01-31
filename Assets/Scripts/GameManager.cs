@@ -251,7 +251,10 @@ public class GameManager : MonoBehaviour
 
             var cont = chick.GetComponent<ChickenController>();
             cont.Target = Player.GetComponent<Attributes>();
-            cont.RemainingLife = spawner.Lifetime; 
+            cont.RemainingLife = spawner.Lifetime;
+            var audio = chick.GetComponent<AudioSource>();
+            audio.clip = SoundEffectPlayerScript.GetRandomOfTag("chickencall");
+            audio.Play(); 
         }
 
         yield return null; 

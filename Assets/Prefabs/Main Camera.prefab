@@ -140,6 +140,407 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a76524c0a7e8eda4f9da2565c0f2c45a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SoundEffects:
+  - Name: find egg sound1
+    Tags:
+    - find_egg
+    AudioClip: {fileID: 8300000, guid: 9c738d8c823b925418488fa0da9d33fe, type: 3}
+  - Name: find egg sound1
+    Tags:
+    - find_egg
+    AudioClip: {fileID: 8300000, guid: d06e79d6c5fe7aa449d0186e2a25a862, type: 3}
+  - Name: find egg sound2
+    Tags:
+    - find_egg
+    AudioClip: {fileID: 8300000, guid: de2fcfbf47bcbaa4cbd59cd346632ac4, type: 3}
+  - Name: find egg sound2
+    Tags:
+    - find_egg
+    AudioClip: {fileID: 8300000, guid: 4b25014c8e293104f909916393294809, type: 3}
+  - Name: find egg sound3
+    Tags:
+    - find_egg
+    AudioClip: {fileID: 8300000, guid: e7809ffd7ce803a42bd25d8dd77987f2, type: 3}
+  - Name: find egg sound3
+    Tags:
+    - find_egg
+    AudioClip: {fileID: 8300000, guid: d20befad86a9c224d925fb35b631f2da, type: 3}
+  - Name: find egg sound4
+    Tags:
+    - find_egg
+    AudioClip: {fileID: 8300000, guid: c6fcd58034e103f4c8a1ed7e4bb9b6fe, type: 3}
+  - Name: find egg sound4
+    Tags:
+    - find_egg
+    AudioClip: {fileID: 8300000, guid: 280ca25e1d4309645ac18c6dd2f934d1, type: 3}
+  - Name: find_egg_sound1
+    Tags: []
+    AudioClip: {fileID: 8300000, guid: 98fb75c1ac00d53499708f8d6d2b4527, type: 3}
+  - Name: footsteps 2.3footsteps oli
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: 0457e6d135dfc06458cb916ecc35ab74, type: 3}
+  - Name: footsteps 2.7footsteps oli
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: 6911db85886c06c42aeca4f0fb4b6d91, type: 3}
+  - Name: footsteps.23footsteps oli
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: e22e793dc31942544836cff5b88dcc12, type: 3}
+  - Name: footsteps.27footsteps oli
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: 301a43e9f4824094d91a3424d466ac24, type: 3}
+  - Name: footsteps.31footsteps oli
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: 8c6faf581d175ad4f8fca3d371dbddbe, type: 3}
+  - Name: footsteps.3footsteps oli
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: 9ebe6a7f450bbe34ab6ada742d93974b, type: 3}
+  - Name: Game Jam voices.11
+    Tags:
+    - voices
+    AudioClip: {fileID: 8300000, guid: ac777a504919eb345aa74d7bb4427727, type: 3}
+  - Name: Game Jam voices.13
+    Tags:
+    - voices
+    AudioClip: {fileID: 8300000, guid: e573dfa2f061bd841a256251c31d591f, type: 3}
+  - Name: Game Jam voices.14
+    Tags:
+    - voices
+    AudioClip: {fileID: 8300000, guid: 7043772be1325ac4d990dcc2d1d5f12c, type: 3}
+  - Name: Game Jam voices.3
+    Tags:
+    - voices
+    AudioClip: {fileID: 8300000, guid: 9dac7b23576434b4a9b3087f9e474025, type: 3}
+  - Name: Game Jam voices.7
+    Tags:
+    - voices
+    AudioClip: {fileID: 8300000, guid: 91d130268a15bc94f96cd2f052e123b2, type: 3}
+  - Name: Game Jam voices.9
+    Tags:
+    - voices
+    AudioClip: {fileID: 8300000, guid: fdc103db12f82e642bf7e88b41024513, type: 3}
+  - Name: Game Jam_12#07.02Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 21752e5076f607f4ba77deb20dced4a7, type: 3}
+  - Name: Game Jam_12#07.03Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 9b4443c875484f249b178aa5f629c749, type: 3}
+  - Name: Game Jam_12#07.05Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 7c8530361312dcf47bcd84ccd45128f9, type: 3}
+  - Name: Game Jam_12#07.06Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 3abd723c57fbf3e40931f4db73fa9691, type: 3}
+  - Name: Game Jam_12#07.07Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: d27006e30a153df43b803ddaeb79e62a, type: 3}
+  - Name: Game Jam_12#07.08Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: a46037717ec3e3b44981d91c2e4f219f, type: 3}
+  - Name: Game Jam_12#07.09Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: c7cca81260bef7f419f59d497b4717cd, type: 3}
+  - Name: Game Jam_12#07.10Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 29146344300509b43aa38966555375a6, type: 3}
+  - Name: Game Jam_12#07.11Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 5f585a6c926f2934280436e769075d0d, type: 3}
+  - Name: Game Jam_12#07.12Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: fb5ae4693c42c9a4eacf8351ccf316d1, type: 3}
+  - Name: Game Jam_12#07.14Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 0d1b5ab8265740341be189902afe5ae8, type: 3}
+  - Name: Game Jam_12#07.15Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 05f10fc68fb782b48a84b20b00eb2f83, type: 3}
+  - Name: Game Jam_12#07.16Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 9a3ad0572b7a2a541b1245c847163336, type: 3}
+  - Name: Game Jam_12#07.17Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: c2b03d70931b51e478ec70fcad172515, type: 3}
+  - Name: Game Jam_12#07.18Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: cb03f061bf616ef45a4f920c40f722de, type: 3}
+  - Name: Game Jam_12#07.20Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 8167e97af94b9934c8aa4c657c99166d, type: 3}
+  - Name: Game Jam_12#07.21Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 2cd459e1b8afdea47901adb8459ffaa5, type: 3}
+  - Name: Game Jam_12#07.22Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: cccdd3ad6bd85034288270ddc5f782f6, type: 3}
+  - Name: Game Jam_12#07.23Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 647b93c3df9d13c4f8677b43e95e37c1, type: 3}
+  - Name: Game Jam_12#07.24Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: c130a08fe53bcb44db2d35cc4611d267, type: 3}
+  - Name: Game Jam_12#07.25Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: c63afd5af6510b54491952b212cb72c7, type: 3}
+  - Name: Game Jam_12#07.26Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 9885255b0e7ac4f4d94dadfada2412af, type: 3}
+  - Name: Game Jam_12#07.27Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 4486182eaf2f0bc49b8c0bcf41f62128, type: 3}
+  - Name: Game Jam_12#07.28Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 97994831a5d6a1d49a04a81f51620ce6, type: 3}
+  - Name: Game Jam_12#07.30Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: e0d48854804395143977613a9874d104, type: 3}
+  - Name: Game Jam_12#07.31Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 12e2de2d3cd1f9e40ad77ec9d9e370c9, type: 3}
+  - Name: Game Jam_12#07.32Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: 77f05de4f34d3ac48bfebf43de66395e, type: 3}
+  - Name: Game Jam_12#07.33Lost chicken calls
+    Tags:
+    - chickencall
+    AudioClip: {fileID: 8300000, guid: ec2409d29b1b7f54d992538a4af5e75b, type: 3}
+  - Name: Game Jam_12#09_bipPecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: d0db1a2d65aa2eb4fa074578ecb6a292, type: 3}
+  - Name: Game Jam_12#09_bip_1Pecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: 1b5757026769fb844a2bb5d98a08635d, type: 3}
+  - Name: Game Jam_12#09_bip_2Boss damage sound
+    Tags:
+    - bossdamage
+    AudioClip: {fileID: 8300000, guid: 21cf856c2c96d794f893315cc3044767, type: 3}
+  - Name: Game Jam_12#09_bip_3Boss damage sound
+    Tags:
+    - bossdamage
+    AudioClip: {fileID: 8300000, guid: a24d3bd0234441d43bbe8e179a45b777, type: 3}
+  - Name: Game Jam_16#05_bipPecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: 74638e0733d684942ba80d42f22ba190, type: 3}
+  - Name: Game Jam_16#05_bip_1Pecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: eabe222a769b63b44af887e1ba8c82d8, type: 3}
+  - Name: Game Jam_16#05_bip_2Boss damage sound_1
+    Tags:
+    - bossdamage
+    AudioClip: {fileID: 8300000, guid: 8b54b1a5689567348b4fb0b4cc449c58, type: 3}
+  - Name: Game Jam_18#22_bipPecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: 13fc39d535c8b64438854bbcd0c2645c, type: 3}
+  - Name: Game Jam_18#22_bip_1Pecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: f58c4509004b462479860ae8724416f7, type: 3}
+  - Name: Game Jam_18#22_bip_2Pecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: 10e7514192186e8409d1da5273596069, type: 3}
+  - Name: Game Jam_18#22_bip_3Pecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: b037b3bcbfd3eee4e82f82c0eb5a3e74, type: 3}
+  - Name: Game Jam_18#22_bip_4Pecked
+    Tags:
+    - pecked
+    AudioClip: {fileID: 8300000, guid: 4838f4fd1d2011a44b5e519918a3f9a1, type: 3}
+  - Name: Game Jam_18#22_bip_5Boss damage sound
+    Tags:
+    - bossdamage
+    AudioClip: {fileID: 8300000, guid: d5cc187c7fa5bb849a6a0c74335bab51, type: 3}
+  - Name: Game Jam_18#22_bip_6Boss damage sound_1
+    Tags:
+    - bossdamage
+    AudioClip: {fileID: 8300000, guid: 373f50890b1303d4ea80f19fbbaacd93, type: 3}
+  - Name: Game Jam_18#22_bip_7Boss damage sound_1
+    Tags:
+    - bossdamage
+    AudioClip: {fileID: 8300000, guid: cd89fdbf8b894f94384bbf573277bb93, type: 3}
+  - Name: Game Jam_18#22_bip_8Boss damage sound_1
+    Tags:
+    - bossdamage
+    AudioClip: {fileID: 8300000, guid: cc8e77a0e1944464dbf8feb0630d1bd5, type: 3}
+  - Name: Game Jam_18#22_bip_9Boss damage sound_1
+    Tags:
+    - bossdamage
+    AudioClip: {fileID: 8300000, guid: fc8073ce7bbb3694f815715aaa85f0bd, type: 3}
+  - Name: Game Jam_19#07Boss Call
+    Tags: []
+    AudioClip: {fileID: 8300000, guid: 9b8a8b6318d6b9d47927d0934814c823, type: 3}
+  - Name: Game Jam_19#08Boss Call
+    Tags: []
+    AudioClip: {fileID: 8300000, guid: d15769267a1c47c4fb98d66c91165fed, type: 3}
+  - Name: Game Jam_19#09Boss Call
+    Tags: []
+    AudioClip: {fileID: 8300000, guid: e237b0fe986e6f94b8965d6e48b62106, type: 3}
+  - Name: Game Jam_29#01.2sheep disintergrate sound_1pop
+    Tags: []
+    AudioClip: {fileID: 8300000, guid: fe961d11cae0d8643952410e75cd1462, type: 3}
+  - Name: Game Jam_29#02.3sheep disintergrate sound_1pop
+    Tags: []
+    AudioClip: {fileID: 8300000, guid: 4f76711c61ee7ce48a4fba211b029825, type: 3}
+  - Name: Game Jam_29#02.6sheep disintergrate sound_1pop
+    Tags: []
+    AudioClip: {fileID: 8300000, guid: 9a7438d3aa1e2754aa07c5387162bde9, type: 3}
+  - Name: Game Jam_29#02.8sheep disintergrate sound_1pop
+    Tags: []
+    AudioClip: {fileID: 8300000, guid: 97e011140afedc144bab5271cd4708e3, type: 3}
+  - Name: Game Jam_29#03.01chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 4ef18085e4531e9439754f8908b7209f, type: 3}
+  - Name: Game Jam_29#03.02chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 7d18b07879241c44bab8f10bfccb6558, type: 3}
+  - Name: Game Jam_29#03.03chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: f804c17f2c99bbb45ab22d64004a4399, type: 3}
+  - Name: Game Jam_29#03.04chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 248e65134c5f0584582e3a61310f2e25, type: 3}
+  - Name: Game Jam_29#03.05chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 00da09733c32c8244a8509750a6413e4, type: 3}
+  - Name: Game Jam_29#03.06chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 38bb59618e1725040a3da7ae93759936, type: 3}
+  - Name: Game Jam_29#03.07chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 3b3bcd9d262842e40bc0f12992ebbfbf, type: 3}
+  - Name: Game Jam_29#03.08chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 0dbd0c160d6fb5a408bb5bbb5327b4f7, type: 3}
+  - Name: Game Jam_29#03.09chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: e0522fe1de377924995b7677420e6a5a, type: 3}
+  - Name: Game Jam_29#03.10chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: be23d1854698717409d529d272005ded, type: 3}
+  - Name: Game Jam_29#03.11chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 13fab1f510df25a40a3e29a2b9f783e2, type: 3}
+  - Name: Game Jam_29#03.12chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 42738fc327f863c4ab6694ff6c9c578e, type: 3}
+  - Name: Game Jam_29#03.13chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 406f4f11676d50246885785319995bd5, type: 3}
+  - Name: Game Jam_29#03.16chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 131f534c0842bf645b4beec9d03c9e8d, type: 3}
+  - Name: Game Jam_29#03.17chicken disintergrate sound_1pop
+    Tags:
+    - chickendeath
+    AudioClip: {fileID: 8300000, guid: 5aee1510eb1cfd54fbbde4558f00c52f, type: 3}
+  - Name: Game_Jam_voices
+    Tags:
+    - voices
+    AudioClip: {fileID: 8300000, guid: 28c5527dd9b3f4b43b182790c97a92cb, type: 3}
+  - Name: Inst 8_bip_1.4footstep floorA 1
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: b3f8c0a9c61c7bc4e8e084361ef8ea9c, type: 3}
+  - Name: Inst 8_bip_1.7footstep floorA 2
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: d6bb663ddbf17fe4b99b1ecd59e52c30, type: 3}
+  - Name: Inst 8_bip_1.9footstep floorA 3
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: b79daaf7774dfc4449ab38a0b4dc405e, type: 3}
+  - Name: Inst 8_bip_2.10footstep floorB
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: b10fee098929db64884898bb953972e0, type: 3}
+  - Name: Inst 8_bip_2.3footstep floorB
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: 8116e6e9ba76fb24180fe1c8fe821a51, type: 3}
+  - Name: Inst 8_bip_2.7footstep floorB
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: 94108291ac4c91c4eb6e913f9e53088c, type: 3}
+  - Name: Inst 8_bip_2.9footstep floorB
+    Tags:
+    - footsteps
+    AudioClip: {fileID: 8300000, guid: 2538eef5701c8c94ea350b464a7d88a9, type: 3}
+  - Name: message sound
+    Tags:
+    - message
+    AudioClip: {fileID: 8300000, guid: 50e0a25c93e8a284186a52e8c647dabe, type: 3}
+  - Name: message sound2
+    Tags:
+    - message
+    AudioClip: {fileID: 8300000, guid: a9a39c1165e556a4486e6d408d7e9929, type: 3}
+  - Name: message sound2_2
+    Tags:
+    - message
+    AudioClip: {fileID: 8300000, guid: f213ad1d736dea542b42e57cc3f3b175, type: 3}
+  - Name: message sound3
+    Tags:
+    - message
+    AudioClip: {fileID: 8300000, guid: 0522ca9a59eeb0145a7943ef06afe75d, type: 3}
+  - Name: message sound3_2
+    Tags:
+    - message
+    AudioClip: {fileID: 8300000, guid: 64138101b3d3d3f4cba1190ef602e571, type: 3}
+  - Name: message sound_2
+    Tags:
+    - message
+    AudioClip: {fileID: 8300000, guid: cb3d7f7940345fb4483aee35de456ea0, type: 3}
   AudioSource: {fileID: 0}
 --- !u!1 &3828074050985767465
 GameObject:
@@ -212,11 +613,11 @@ MonoBehaviour:
     Tags:
     - lobby
     - menu
-    AudioClip: {fileID: 8300000, guid: f0e7277ab0881d84785d2302fc9fc1ff, type: 3}
+    AudioClip: {fileID: 8300000, guid: 46a8f7739aa49124ba3dbb5c1f833b25, type: 3}
   - Name: Stairs To Lobby
     Tags:
     - lobby
-    AudioClip: {fileID: 8300000, guid: 98bf009718a675549b2e872a63b83a90, type: 3}
+    AudioClip: {fileID: 8300000, guid: 1004b07bc169a8646b901dfeebf6fc78, type: 3}
   CurrentMusic: []
   AudioSource: []
 --- !u!82 &8906315822334026532

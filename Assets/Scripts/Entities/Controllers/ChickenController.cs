@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ChickenController : BaseAI
 {
-    public GameObject ExplosionPrefab; 
+    public GameObject ExplosionPrefab;
 
+    public AudioSource AudioSource; 
 
     public int RemainingLife; 
 
@@ -15,6 +16,7 @@ public class ChickenController : BaseAI
     {
         Movement = GetComponent<Movement>();
         GetComponent<Attributes>().OnDeath += Death;
+        AudioSource = GetComponent<AudioSource>(); 
         StartCoroutine(DeathCounter(Random.Range(RemainingLife -1, RemainingLife + 2))); 
     }
 
@@ -59,15 +61,17 @@ public class ChickenController : BaseAI
                     Movement.AnimatorScript.QueueAnimation("attackleft");
                     break;
             }
-            Target.TakeDamage(Movement.Attributes.Attack); 
-          
+            Target.TakeDamage(Movement.Attributes.Attack);
+            AudioSource.clip = GameManager.GM.SoundEffectPlayerScript.GetRandomOfTag("pecked");
+            AudioSource.Play(); 
         }
     }
 
 
     void Death()
     {
-        Instantiate(ExplosionPrefab, transform.position, ExplosionPrefab.transform.rotation); 
+        var chick = Instantiate(ExplosionPrefab, transform.position, ExplosionPrefab.transform.rotation);
+       // chick.GetComponent<AudioSource>().clip = GameManager.GM.SoundEffectPlayerScript.GetRandomOfTag("chickendeath");
 
         Destroy(gameObject); 
     }

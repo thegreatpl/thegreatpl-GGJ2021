@@ -51,4 +51,10 @@ public class SoundEffectPlayerScript : MonoBehaviour
         if (clip != null)
             PlayAudio(clip.AudioClip); 
     }
+
+
+    public AudioClip GetRandomOfTag(string tag)
+    {
+        return SoundEffects.Where(x => x.Tags.Contains(tag)).GetRandom().AudioClip; 
+    }
 }

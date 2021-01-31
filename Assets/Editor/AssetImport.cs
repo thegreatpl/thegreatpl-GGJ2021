@@ -228,4 +228,59 @@ public class AssetImporter : MonoBehaviour
 
         return retval; 
     }
+
+
+    [MenuItem("AssetImport/LoadSounds")]
+    public static void LoadSoundFX()
+    {
+        using (var gameController = new PrefabUtility.EditPrefabContentsScope("Assets/Prefabs/Main Camera.prefab"))
+        {
+            var sounds = new List<MusicObj>(); 
+
+            foreach(var file in Directory.GetFiles("Assets/Sounds/Effects"))
+            {
+                if (!(new string[] { ".mp3", ".wav" }.Contains(Path.GetExtension(file))))
+                    continue;
+                
+                var sound = new MusicObj(); 
+                sound.Name = Path.GetFileNameWithoutExtension(file);
+
+                var clip = AssetDatabase.LoadAllAssetsAtPath($"Assets/Sounds/Effects/{ Path.GetFileName(file)}").Cast<AudioClip>(); 
+
+                var tags = new List<string>();
+                if (sound.Name.Contains("message sound"))
+                    tags.Add("message");
+                if (sound.Name.Contains("find egg"))
+                    tags.Add("find_egg");
+                if (sound.Name.Contains("voices"))
+                    tags.Add("voices");
+                if (sound.Name.Contains("Pecked"))
+                    tags.Add("pecked");
+                if (sound.Name.Contains("footstep"))
+                    tags.Add("footsteps");
+                if (sound.Name.Contains("chicken calls"))
+                    tags.Add("chickencall");
+                if (sound.Name.Contains("Boss damage"))
+                    tags.Add("bossdamage");
+                if (sound.Name.Contains("chicken disintergrate"))
+                    tags.Add("chickendeath"); 
+
+
+                sound.AudioClip = clip.FirstOrDefault(x => true); 
+
+                sound.Tags = tags.ToArray();
+
+                sounds.Add(sound); 
+
+            }
+
+
+
+
+
+            var soundsfx = gameController.prefabContentsRoot.GetComponentInChildren<SoundEffectPlayerScript>();
+            //var union = soundsfx.SoundEffects.Select(x => new { x.Name }).Union(sounds.Select(x => new { x.Name }));
+            soundsfx.SoundEffects = sounds; 
+        }
+    }
 }
