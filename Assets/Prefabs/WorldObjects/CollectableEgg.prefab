@@ -123,4 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EggName: 
-  EggFoundSound: {fileID: 8300000, guid: 98fb75c1ac00d53499708f8d6d2b4527, type: 3}
+  EggFoundSound: {fileID: 8300000, guid: 9c738d8c823b925418488fa0da9d33fe, type: 3}
