@@ -403,13 +403,12 @@ PrefabInstance:
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Text
       value: "Voice: \u201CFound\u2026 list...\u201D\r\n\r\nFound: \u201CList? What
-        list? I don\u2019t understand.\u201D\r\n\r\nVoice: \u201CLibrary, upstairs.\u201D\nFound:
-        \u201CThey\u2019re not responding. What should I do? Hmm what\u2019s this?
-        A diary?\u201D\n\nThe children have been growing well, some are already well
-        within their teenage years. They\u2019ll be ready before the end of the year.
-        Madame Bernstein has readied her and has kept the list hidden well in the
-        library.\r\n\nFound: \u201CThe library. Where is that? Maybe there\u2019s
-        something around here that can help.\u201D\r\n"
+        list? I don\u2019t understand.\u201D\r\n\nFound: \u201CThey\u2019re not responding.
+        What should I do? Hmm what\u2019s this? A diary?\u201D\n\nThe children have
+        been growing well, some are already well within their teenage years. They\u2019ll
+        be ready before the end of the year. Madame \nBernstein has readied her and
+        has kept the list hidden well in the library.\r\n\nFound: \u201CThe library.
+        Where is that?.\u201D\r\n\nVoice: \u201CLibrary, upstairs.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Seconds
