@@ -28,7 +28,13 @@ public class WorldScript : MonoBehaviour
     /// <summary>
     /// Maximum chickens per spawn. 
     /// </summary>
-    public int MaxChickensPerSpawn = 30; 
+    public int MaxChickensPerSpawn = 30;
+
+
+    /// <summary>
+    /// The given music tag for this world. 
+    /// </summary>
+    public string MusicTag; 
 
     // Start is called before the first frame update
     void Start()

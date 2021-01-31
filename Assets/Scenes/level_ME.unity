@@ -5542,3 +5542,4 @@ MonoBehaviour:
   MaxSecondsBetweenSpawns: 30
   MinChickesnPerSpawn: 10
   MaxChickensPerSpawn: 30
+  MusicTag: boss
