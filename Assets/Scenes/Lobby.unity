@@ -277,6 +277,85 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddda5b16daf2c3b49a9229592a8dce99, type: 3}
+--- !u!1001 &115211805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -51.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -445.31244
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260040, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: Text
+      value: "Found: \u201CSo this is the egg. Now where are the rest?\u201D\r\n\r\nVoice:
+        \u201CSadness\u2026 upstairs.\u201D\r\n\r\nFound: \u201CUpstairs? Why didn\u2019t
+        we go for that one first?... They\u2019re not responding.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3000226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6319046
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.005555868
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260043, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.20479584
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677571221505260085, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
+      propertyPath: m_Name
+      value: eggTrigger
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
 --- !u!114 &142731197 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -3843005672867238486, guid: 184b66e336be820428ee14443829ff9e, type: 3}
