@@ -43,7 +43,16 @@ public class BossFightManager : MonoBehaviour
     IEnumerator EndGame()
     {
         GameManager.GM.UIGame.ShowVictoryScreen();
-        yield return new WaitForSeconds(20);
+
+        do
+        {
+
+            yield return null;
+            if (Input.GetKeyDown("Jump") || Input.GetKeyDown("Cancel"))
+                break; 
+
+        } while (true); 
+        
         GameManager.GM.LoadMenu(); 
     }
 }
