@@ -489,7 +489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677571221505260042, guid: 4a460aa8616b63148ae44e9236a57354, type: 3}
       propertyPath: Text
-      value: 'Found: It cam from here.
+      value: 'Found: It came from here.
 
 
         Voice: Statue... door... demon.
